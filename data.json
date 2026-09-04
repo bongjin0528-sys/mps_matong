@@ -1,0 +1,10964 @@
+{
+ "categories": [
+  {
+   "num": 1,
+   "kr": "두경부 통증",
+   "en": "Head & Neck Pain"
+  },
+  {
+   "num": 2,
+   "kr": "상배부, 어깨 및 상지 통증",
+   "en": "Upper Back, Shoulder & Arm Pain"
+  },
+  {
+   "num": 3,
+   "kr": "전완 및 손 통증",
+   "en": "Forearm & Hand Pain"
+  },
+  {
+   "num": 4,
+   "kr": "체간 통증",
+   "en": "Trunk Pain"
+  },
+  {
+   "num": 5,
+   "kr": "하부 체간 통증",
+   "en": "Lower Trunk Pain"
+  },
+  {
+   "num": 6,
+   "kr": "고관절, 대퇴 및 슬관절 통증",
+   "en": "Hip, Thigh & Knee Pain"
+  },
+  {
+   "num": 7,
+   "kr": "하퇴, 족관절 및 족부 통증",
+   "en": "Leg, Ankle & Foot Pain"
+  }
+ ],
+ "sections": [
+  {
+   "num": "1",
+   "en": "Vertex Pain",
+   "kr": "정수리통증",
+   "cat": 1,
+   "muscles": [
+    {
+     "en": "Sternocleidomastoid",
+     "kr": "흉쇄유돌근",
+     "img": "images/s1_scm.webp"
+    },
+    {
+     "en": "Splenius Capitis",
+     "kr": "두판상근",
+     "img": "images/s1_splenius_capitis.webp"
+    }
+   ]
+  },
+  {
+   "num": "2",
+   "en": "Frontal Headache",
+   "kr": "전두통",
+   "cat": 1,
+   "muscles": [
+    {
+     "en": "Sternocleidomastoid",
+     "kr": "흉쇄유돌근",
+     "img": "images/s2_scm.webp"
+    },
+    {
+     "en": "Semispinalis Capitis",
+     "kr": "두반극근",
+     "img": "images/s2_semispinalis_capitis.webp"
+    },
+    {
+     "en": "Frontalis",
+     "kr": "전두근",
+     "img": "images/s2_frontalis.webp"
+    },
+    {
+     "en": "Zygomaticus",
+     "kr": "관골근",
+     "img": "images/s2_zygomaticus.webp"
+    },
+    {
+     "en": "Masseter",
+     "kr": "교근",
+     "img": "images/s2_masseter.webp"
+    }
+   ]
+  },
+  {
+   "num": "3",
+   "en": "Eye and Eyebrow Pain",
+   "kr": "안구 및 눈썹 통증",
+   "cat": 1,
+   "muscles": [
+    {
+     "en": "Trapezius",
+     "kr": "승모근",
+     "img": "images/s3_trapezius.webp"
+    },
+    {
+     "en": "Sternocleidomastoid",
+     "kr": "흉쇄유돌근",
+     "img": "images/s3_scm.webp"
+    },
+    {
+     "en": "Temporalis TP1",
+     "kr": "측두근(TP1)",
+     "img": "images/s3_temporalis_tp1.webp"
+    },
+    {
+     "en": "Splenius Cervicis",
+     "kr": "경판상근",
+     "img": "images/s3_splenius_cervicis.webp"
+    },
+    {
+     "en": "Suboccipital Group",
+     "kr": "후두하근군",
+     "img": "images/s3_suboccipital.webp"
+    },
+    {
+     "en": "Masseter",
+     "kr": "교근",
+     "img": "images/s3_masseter.webp"
+    },
+    {
+     "en": "Orbicularis Oculi",
+     "kr": "안륜근",
+     "img": "images/s3_orbicularis_oculi.webp"
+    },
+    {
+     "en": "Occipitalis",
+     "kr": "후두근",
+     "img": "images/s3_occipitalis.webp"
+    }
+   ]
+  },
+  {
+   "num": "4",
+   "en": "Cheek and jaw Pain",
+   "kr": "협부 및 턱 통증",
+   "cat": 1,
+   "muscles": [
+    {
+     "en": "Trapezius",
+     "kr": "승모근",
+     "img": "images/s4_trapezius.webp"
+    },
+    {
+     "en": "Sternocleidomastoid",
+     "kr": "흉쇄유돌근",
+     "img": "images/s4_scm.webp"
+    },
+    {
+     "en": "Platysma",
+     "kr": "광경근",
+     "img": "images/s4_platysma.webp"
+    },
+    {
+     "en": "Lateral Pterygoid",
+     "kr": "외측익돌근",
+     "img": "images/s4_lateral_pterygoid.webp"
+    },
+    {
+     "en": "Medial Pterygoid",
+     "kr": "내측익돌근",
+     "img": "images/s4_medial_pterygoid.webp"
+    },
+    {
+     "en": "Buccinator",
+     "kr": "협근",
+     "img": "images/s4_buccinator.webp"
+    },
+    {
+     "en": "Masseter",
+     "kr": "교근",
+     "img": "images/s4_masseter.webp"
+    },
+    {
+     "en": "Orbicularis Oculi",
+     "kr": "안륜근",
+     "img": "images/s4_orbicularis_oculi.webp"
+    },
+    {
+     "en": "Zygomaticus",
+     "kr": "관골근",
+     "img": "images/s4_zygomaticus.webp"
+    },
+    {
+     "en": "Digastric",
+     "kr": "악이복근",
+     "img": "images/s4_digastric.webp"
+    },
+    {
+     "en": "Soleus",
+     "kr": "가자미근",
+     "img": "images/s4_soleus.webp"
+    }
+   ]
+  },
+  {
+   "num": "5",
+   "en": "Ear and TM Joint Pain",
+   "kr": "귀 및 턱관절 통증",
+   "cat": 1,
+   "muscles": [
+    {
+     "en": "Sternocleidomastoid",
+     "kr": "흉쇄유돌근",
+     "img": "images/s5_scm.webp"
+    },
+    {
+     "en": "Masseter (Deep)",
+     "kr": "교근(Deep)",
+     "img": "images/s5_masseter_deep.webp"
+    },
+    {
+     "en": "Lateral Pterygoid",
+     "kr": "외측익돌근",
+     "img": "images/s5_lateral_pterygoid.webp"
+    },
+    {
+     "en": "Medial Pterygoid",
+     "kr": "내측익돌근",
+     "img": "images/s5_medial_pterygoid.webp"
+    }
+   ]
+  },
+  {
+   "num": "6",
+   "en": "Tooth Pain",
+   "kr": "치통",
+   "cat": 1,
+   "muscles": [
+    {
+     "en": "Temporalis",
+     "kr": "측두근",
+     "img": "images/s6_temporalis.webp"
+    },
+    {
+     "en": "Masseter",
+     "kr": "교근",
+     "img": "images/s6_masseter.webp"
+    },
+    {
+     "en": "Digastric",
+     "kr": "악이복근",
+     "img": "images/s6_digastric.webp"
+    }
+   ]
+  },
+  {
+   "num": "7",
+   "en": "Throat & Front of Neck Pain",
+   "kr": "인후 전경부 통증",
+   "cat": 1,
+   "muscles": [
+    {
+     "en": "Sternocleidomastoid",
+     "kr": "흉쇄유돌근",
+     "img": "images/s7_scm.webp"
+    },
+    {
+     "en": "Digastric",
+     "kr": "악이복근",
+     "img": "images/s7_digastric.webp"
+    },
+    {
+     "en": "Medial Pterygoid",
+     "kr": "내측익돌근",
+     "img": "images/s7_medial_pterygoid.webp"
+    }
+   ]
+  },
+  {
+   "num": "8",
+   "en": "Temporal Headache",
+   "kr": "측두부 두통",
+   "cat": 1,
+   "muscles": [
+    {
+     "en": "Trapezius",
+     "kr": "승모근",
+     "img": "images/s8_trapezius.webp"
+    },
+    {
+     "en": "Sternocleidomastoid",
+     "kr": "흉쇄유돌근",
+     "img": "images/s8_scm.webp"
+    },
+    {
+     "en": "Temporalis",
+     "kr": "측두근",
+     "img": "images/s8_temporalis.webp"
+    },
+    {
+     "en": "Splenius Cervicis",
+     "kr": "경판상근",
+     "img": "images/s8_splenius_cervicis.webp"
+    },
+    {
+     "en": "Suboccipital Group",
+     "kr": "후두하근군",
+     "img": "images/s8_suboccipital.webp"
+    },
+    {
+     "en": "Semispinalis Capitis",
+     "kr": "두반극근",
+     "img": "images/s8_semispinalis_capitis.webp"
+    }
+   ]
+  },
+  {
+   "num": "9",
+   "en": "Back of Head Pain",
+   "kr": "후두부 통증",
+   "cat": 1,
+   "muscles": [
+    {
+     "en": "Trapezius",
+     "kr": "승모근",
+     "img": "images/s9_trapezius.webp"
+    },
+    {
+     "en": "Sternocleidomastoid",
+     "kr": "흉쇄유돌근",
+     "img": "images/s9_scm.webp"
+    },
+    {
+     "en": "Occipitalis",
+     "kr": "후두근",
+     "img": "images/s9_occipitalis.webp"
+    },
+    {
+     "en": "Splenius Cervicis",
+     "kr": "경판상근",
+     "img": "images/s9_splenius_cervicis.webp"
+    },
+    {
+     "en": "Suboccipital Group",
+     "kr": "후두하근군",
+     "img": "images/s9_suboccipital.webp"
+    },
+    {
+     "en": "Semispinalis Capitis",
+     "kr": "두반극근",
+     "img": "images/s9_semispinalis_capitis.webp"
+    },
+    {
+     "en": "Digastric",
+     "kr": "악이복근",
+     "img": "images/s9_digastric.webp"
+    },
+    {
+     "en": "Temporalis",
+     "kr": "측두근",
+     "img": "images/s9_temporalis.webp"
+    }
+   ]
+  },
+  {
+   "num": "10",
+   "en": "Back of Neck Pain",
+   "kr": "후경부 통증",
+   "cat": 1,
+   "muscles": [
+    {
+     "en": "Trapezius",
+     "kr": "승모근",
+     "img": "images/s10_trapezius.webp"
+    },
+    {
+     "en": "Multifidi",
+     "kr": "다열근",
+     "img": "images/s10_multifidi.webp"
+    },
+    {
+     "en": "Levator Scapulae",
+     "kr": "견갑거근",
+     "img": "images/s10_levator_scapulae.webp"
+    },
+    {
+     "en": "Splenius Cervicis",
+     "kr": "경판상근",
+     "img": "images/s10_splenius_cervicis.webp"
+    },
+    {
+     "en": "Infraspinatus",
+     "kr": "극하근",
+     "img": "images/s10_infraspinatus.webp"
+    }
+   ]
+  },
+  {
+   "num": "11",
+   "en": "Upper Thoracic Back Pain",
+   "kr": "상부 흉추부 통증",
+   "cat": 2,
+   "muscles": [
+    {
+     "en": "Scalene",
+     "kr": "사각근",
+     "img": "images/s11_scalene.webp"
+    },
+    {
+     "en": "Levator Scapulae",
+     "kr": "견갑거근",
+     "img": "images/s11_levator_scapulae.webp"
+    },
+    {
+     "en": "Trapezius",
+     "kr": "승모근",
+     "img": "images/s11_trapezius.webp"
+    },
+    {
+     "en": "Multifidi",
+     "kr": "다열근",
+     "img": "images/s11_multifidi.webp"
+    },
+    {
+     "en": "Supraspinatus",
+     "kr": "극상근",
+     "img": "images/s11_supraspinatus.webp"
+    },
+    {
+     "en": "Rhomboid",
+     "kr": "능형근",
+     "img": "images/s11_rhomboid.webp"
+    },
+    {
+     "en": "Splenius Cervicis",
+     "kr": "경판상근",
+     "img": "images/s11_splenius_cervicis.webp"
+    },
+    {
+     "en": "Triceps Brachii",
+     "kr": "상완삼두근",
+     "img": "images/s11_triceps_brachii.webp"
+    },
+    {
+     "en": "Biceps Brachii",
+     "kr": "상완이두근",
+     "img": "images/s11_biceps_brachii.webp"
+    }
+   ]
+  },
+  {
+   "num": "12",
+   "en": "Mid-Thoracic Back Pain",
+   "kr": "중부 흉추부 통증",
+   "cat": 2,
+   "muscles": [
+    {
+     "en": "Rectus Abdominis",
+     "kr": "복직근",
+     "img": "images/s12_rectus_abdominis.webp"
+    },
+    {
+     "en": "Scalene",
+     "kr": "사각근",
+     "img": "images/s12_scalene.webp"
+    },
+    {
+     "en": "Latissimus Dorsi",
+     "kr": "광배근",
+     "img": "images/s12_latissimus_dorsi.webp"
+    },
+    {
+     "en": "Iliocostalis Thoracis",
+     "kr": "흉장늑근",
+     "img": "images/s12_iliocostalis_thoracis.webp"
+    },
+    {
+     "en": "Multifidi",
+     "kr": "다열근",
+     "img": "images/s12_multifidi.webp"
+    },
+    {
+     "en": "Rhomboid",
+     "kr": "능형근",
+     "img": "images/s12_rhomboid.webp"
+    },
+    {
+     "en": "Serratus Posterior Superior",
+     "kr": "상후거근",
+     "img": "images/s12_serratus_posterior_superior.webp"
+    },
+    {
+     "en": "Infraspinatus",
+     "kr": "극하근",
+     "img": "images/s12_infraspinatus.webp"
+    },
+    {
+     "en": "Trapezius",
+     "kr": "승모근",
+     "img": "images/s12_trapezius.webp"
+    },
+    {
+     "en": "Serratus Anterior",
+     "kr": "전거근",
+     "img": "images/s12_serratus_anterior.webp"
+    },
+    {
+     "en": "Levator Scapulae",
+     "kr": "견갑거근",
+     "img": "images/s12_levator_scapulae.webp"
+    }
+   ]
+  },
+  {
+   "num": "13",
+   "en": "Back of Shoulder Pain",
+   "kr": "견부 후면 통증",
+   "cat": 2,
+   "muscles": [
+    {
+     "en": "Deltoid",
+     "kr": "삼각근",
+     "img": "images/s13_deltoid.webp"
+    },
+    {
+     "en": "Levator Scapulae",
+     "kr": "견갑거근",
+     "img": "images/s13_levator_scapulae.webp"
+    },
+    {
+     "en": "Supraspinatus",
+     "kr": "극상근",
+     "img": "images/s13_supraspinatus.webp"
+    },
+    {
+     "en": "Teres Major",
+     "kr": "대원근",
+     "img": "images/s13_teres_major.webp"
+    },
+    {
+     "en": "Teres Minor",
+     "kr": "소원근",
+     "img": "images/s13_teres_minor.webp"
+    },
+    {
+     "en": "Subscapularis",
+     "kr": "견갑하근",
+     "img": "images/s13_subscapularis.webp"
+    },
+    {
+     "en": "Serratus Posterior Superior",
+     "kr": "상후거근",
+     "img": "images/s13_serratus_posterior_superior.webp"
+    },
+    {
+     "en": "Latissimus Dorsi",
+     "kr": "광배근",
+     "img": "images/s13_latissimus_dorsi.webp"
+    },
+    {
+     "en": "Triceps Brachii",
+     "kr": "상완삼두근",
+     "img": "images/s13_triceps_brachii.webp"
+    },
+    {
+     "en": "Scalene",
+     "kr": "사각근",
+     "img": "images/s13_scalene.webp"
+    },
+    {
+     "en": "Trapezius",
+     "kr": "승모근",
+     "img": "images/s13_trapezius.webp"
+    },
+    {
+     "en": "Iliocostalis Thoracis",
+     "kr": "흉장늑근",
+     "img": "images/s13_iliocostalis_thoracis.webp"
+    }
+   ]
+  },
+  {
+   "num": "14",
+   "en": "Back of Arm Pain",
+   "kr": "상완 후면 통증",
+   "cat": 2,
+   "muscles": [
+    {
+     "en": "Scalene",
+     "kr": "사각근",
+     "img": "images/s14_scalene.webp"
+    },
+    {
+     "en": "Teres Major",
+     "kr": "대원근",
+     "img": "images/s14_teres_major.webp"
+    },
+    {
+     "en": "Triceps Brachii",
+     "kr": "상완삼두근",
+     "img": "images/s14_triceps_brachii.webp"
+    },
+    {
+     "en": "Deltoid",
+     "kr": "삼각근",
+     "img": "images/s14_deltoid.webp"
+    },
+    {
+     "en": "Subscapularis",
+     "kr": "견갑하근",
+     "img": "images/s14_subscapularis.webp"
+    },
+    {
+     "en": "Supraspinatus",
+     "kr": "극상근",
+     "img": "images/s14_supraspinatus.webp"
+    },
+    {
+     "en": "Teres Minor",
+     "kr": "소원근",
+     "img": "images/s14_teres_minor.webp"
+    },
+    {
+     "en": "Latissimus Dorsi",
+     "kr": "광배근",
+     "img": "images/s14_latissimus_dorsi.webp"
+    },
+    {
+     "en": "Serratus Posterior Superior",
+     "kr": "상후거근",
+     "img": "images/s14_serratus_posterior_superior.webp"
+    },
+    {
+     "en": "Coracobrachialis",
+     "kr": "오구완근",
+     "img": "images/s14_coracobrachialis.webp"
+    }
+   ]
+  },
+  {
+   "num": "15",
+   "en": "Front of Shoulder Pain",
+   "kr": "견부 전면 통증",
+   "cat": 2,
+   "muscles": [
+    {
+     "en": "Serratus Posterior Superior",
+     "kr": "상후거근",
+     "img": "images/s15_serratus_posterior_superior.webp"
+    },
+    {
+     "en": "Coracobrachialis",
+     "kr": "오구완근",
+     "img": "images/s15_coracobrachialis.webp"
+    },
+    {
+     "en": "Infraspinatus",
+     "kr": "극하근",
+     "img": "images/s15_infraspinatus.webp"
+    },
+    {
+     "en": "Deltoid",
+     "kr": "삼각근",
+     "img": "images/s15_deltoid.webp"
+    },
+    {
+     "en": "Scalene",
+     "kr": "사각근",
+     "img": "images/s15_scalene.webp"
+    },
+    {
+     "en": "Supraspinatus",
+     "kr": "극상근",
+     "img": "images/s15_supraspinatus.webp"
+    },
+    {
+     "en": "Pectoralis Major",
+     "kr": "대흉근",
+     "img": "images/s15_pectoralis_major.webp"
+    },
+    {
+     "en": "Pectoralis Minimus",
+     "kr": "소흉근",
+     "img": "images/s15_pectoralis_minimus.webp"
+    },
+    {
+     "en": "Biceps Brachii",
+     "kr": "상완이두근",
+     "img": "images/s15_biceps_brachii.webp"
+    },
+    {
+     "en": "Sternalis",
+     "kr": "흉골근",
+     "img": "images/s15_sternalis.webp"
+    },
+    {
+     "en": "Subclavius",
+     "kr": "쇄골하근",
+     "img": "images/s15_subclavius.webp"
+    },
+    {
+     "en": "Latissimus Dorsi",
+     "kr": "광배근",
+     "img": "images/s15_latissimus_dorsi.webp"
+    }
+   ]
+  },
+  {
+   "num": "16",
+   "en": "Front of Arm Pain",
+   "kr": "상완 전면 통증",
+   "cat": 2,
+   "muscles": [
+    {
+     "en": "Scalene",
+     "kr": "사각근",
+     "img": "images/s16_scalene.webp"
+    },
+    {
+     "en": "Biceps Brachii",
+     "kr": "상완이두근",
+     "img": "images/s16_biceps_brachii.webp"
+    },
+    {
+     "en": "Triceps Brachii",
+     "kr": "상완삼두근",
+     "img": "images/s16_triceps_brachii.webp"
+    },
+    {
+     "en": "Subclavius",
+     "kr": "쇄골하근",
+     "img": "images/s16_subclavius.webp"
+    },
+    {
+     "en": "Infraspinatus",
+     "kr": "극하근",
+     "img": "images/s16_infraspinatus.webp"
+    },
+    {
+     "en": "Brachialis",
+     "kr": "상완근",
+     "img": "images/s16_brachialis.webp"
+    },
+    {
+     "en": "Supraspinatus",
+     "kr": "극상근",
+     "img": "images/s16_supraspinatus.webp"
+    },
+    {
+     "en": "Deltoid",
+     "kr": "삼각근",
+     "img": "images/s16_deltoid.webp"
+    },
+    {
+     "en": "Sternalis",
+     "kr": "흉골근",
+     "img": "images/s16_sternalis.webp"
+    }
+   ]
+  },
+  {
+   "num": "17",
+   "en": "Lateral Epicondylar Pain",
+   "kr": "외측 상과 통증",
+   "cat": 3,
+   "muscles": [
+    {
+     "en": "Supinator",
+     "kr": "회외근",
+     "img": "images/s17_supinator.webp"
+    },
+    {
+     "en": "Brachioradialis",
+     "kr": "상완요골근",
+     "img": "images/s17_brachioradialis.webp"
+    },
+    {
+     "en": "Extensor Carpi Radialis Longus",
+     "kr": "장요측수근신근",
+     "img": "images/s17_extensor_carpi_radialis_longus.webp"
+    },
+    {
+     "en": "Triceps Brachii",
+     "kr": "상완삼두근",
+     "img": "images/s17_triceps_brachii.webp"
+    },
+    {
+     "en": "Supraspinatus",
+     "kr": "극상근",
+     "img": "images/s17_supraspinatus.webp"
+    },
+    {
+     "en": "Extensor Digitorum",
+     "kr": "지신근",
+     "img": "images/s17_extensor_digitorum.webp"
+    },
+    {
+     "en": "Anconeus",
+     "kr": "주근",
+     "img": "images/s17_anconeus.webp"
+    }
+   ]
+  },
+  {
+   "num": "18",
+   "en": "Antecubital Pain",
+   "kr": "주와부 통증",
+   "cat": 3,
+   "muscles": [
+    {
+     "en": "Brachialis",
+     "kr": "상완근",
+     "img": "images/s18_brachialis.webp"
+    },
+    {
+     "en": "Biceps Brachii",
+     "kr": "상완이두근",
+     "img": "images/s18_biceps_brachii.webp"
+    }
+   ]
+  },
+  {
+   "num": "19",
+   "en": "Medial Epicondylar Pain",
+   "kr": "내측 상과 통증",
+   "cat": 3,
+   "muscles": [
+    {
+     "en": "Triceps Brachii",
+     "kr": "상완삼두근",
+     "img": "images/s19_triceps_brachii.webp"
+    },
+    {
+     "en": "Pectoralis Major",
+     "kr": "대흉근",
+     "img": "images/s19_pectoralis_major.webp"
+    },
+    {
+     "en": "Pectoralis Minimus",
+     "kr": "소흉근",
+     "img": "images/s19_pectoralis_minimus.webp"
+    },
+    {
+     "en": "Serratus Anterior",
+     "kr": "전거근",
+     "img": "images/s19_serratus_anterior.webp"
+    },
+    {
+     "en": "Serratus Posterior Superior",
+     "kr": "상후거근",
+     "img": "images/s19_serratus_posterior_superior.webp"
+    }
+   ]
+  },
+  {
+   "num": "20",
+   "en": "Olecranon Pain",
+   "kr": "주두 통증",
+   "cat": 3,
+   "muscles": [
+    {
+     "en": "Triceps Brachii",
+     "kr": "상완삼두근",
+     "img": "images/s20_triceps_brachii.webp"
+    },
+    {
+     "en": "Serratus Posterior Superior",
+     "kr": "상후거근",
+     "img": "images/s20_serratus_posterior_superior.webp"
+    }
+   ]
+  },
+  {
+   "num": "21",
+   "en": "Ulnar Forearm Pain",
+   "kr": "척측 전완 통증",
+   "cat": 3,
+   "muscles": [
+    {
+     "en": "Serratus Posterior Superior",
+     "kr": "상후거근",
+     "img": "images/s21_serratus_posterior_superior.webp"
+    },
+    {
+     "en": "Latissimus Dorsi",
+     "kr": "광배근",
+     "img": "images/s21_latissimus_dorsi.webp"
+    },
+    {
+     "en": "Pectoralis Major",
+     "kr": "대흉근",
+     "img": "images/s21_pectoralis_major.webp"
+    },
+    {
+     "en": "Pectoralis Minimus",
+     "kr": "소흉근",
+     "img": "images/s21_pectoralis_minimus.webp"
+    }
+   ]
+  },
+  {
+   "num": "22",
+   "en": "Dorsal Forearm Pain",
+   "kr": "배측 전완 통증",
+   "cat": 3,
+   "muscles": [
+    {
+     "en": "Triceps Brachii",
+     "kr": "상완삼두근",
+     "img": "images/s22_triceps_brachii.webp"
+    },
+    {
+     "en": "Teres Major",
+     "kr": "대원근",
+     "img": "images/s22_teres_major.webp"
+    },
+    {
+     "en": "Extensor Carpi Radialis Longus",
+     "kr": "장요측수근신근",
+     "img": "images/s22_extensor_carpi_radialis_longus.webp"
+    },
+    {
+     "en": "Scalene",
+     "kr": "사각근",
+     "img": "images/s22_scalene.webp"
+    },
+    {
+     "en": "Extensor Carpi Radialis Brevis",
+     "kr": "단요측수근신근",
+     "img": "images/s22_extensor_carpi_radialis_brevis.webp"
+    },
+    {
+     "en": "Coracobrachialis",
+     "kr": "오구완근",
+     "img": "images/s22_coracobrachialis.webp"
+    }
+   ]
+  },
+  {
+   "num": "23",
+   "en": "Radial Forearm Pain",
+   "kr": "요측 전완 통증",
+   "cat": 3,
+   "muscles": [
+    {
+     "en": "Infraspinatus",
+     "kr": "극하근",
+     "img": "images/s23_infraspinatus.webp"
+    },
+    {
+     "en": "Scalene",
+     "kr": "사각근",
+     "img": "images/s23_scalene.webp"
+    },
+    {
+     "en": "Brachioradialis",
+     "kr": "상완요골근",
+     "img": "images/s23_brachioradialis.webp"
+    },
+    {
+     "en": "Supraspinatus",
+     "kr": "극상근",
+     "img": "images/s23_supraspinatus.webp"
+    },
+    {
+     "en": "Subclavius",
+     "kr": "쇄골하근",
+     "img": "images/s23_subclavius.webp"
+    }
+   ]
+  },
+  {
+   "num": "24",
+   "en": "Volar Forearm Pain",
+   "kr": "장측 전완 통증",
+   "cat": 3,
+   "muscles": [
+    {
+     "en": "Palmaris Longus",
+     "kr": "장장근",
+     "img": "images/s24_palmaris_longus.webp"
+    },
+    {
+     "en": "Pronator Teres",
+     "kr": "원회내근",
+     "img": "images/s24_pronator_teres.webp"
+    },
+    {
+     "en": "Serratus Anterior",
+     "kr": "전거근",
+     "img": "images/s24_serratus_anterior.webp"
+    },
+    {
+     "en": "Triceps Brachii",
+     "kr": "상완삼두근",
+     "img": "images/s24_triceps_brachii.webp"
+    }
+   ]
+  },
+  {
+   "num": "25",
+   "en": "Dorsal Wrist & Hand Pain",
+   "kr": "수배 및 손등 통증",
+   "cat": 3,
+   "muscles": [
+    {
+     "en": "Extensor Carpi  Ulnaris, Radialis Longus, Brevis",
+     "kr": "척측수근신근·장/단요측수근신근",
+     "img": "images/s25_extensor_carpi_ulnaris_radialis_longus_brevis.webp"
+    },
+    {
+     "en": "Extensor Digitorum",
+     "kr": "총지신근",
+     "img": "images/s25_extensor_digitorum.webp"
+    },
+    {
+     "en": "Subscapularis",
+     "kr": "견갑하근",
+     "img": "images/s25_subscapularis.webp"
+    },
+    {
+     "en": "Scalene",
+     "kr": "사각근",
+     "img": "images/s25_scalene.webp"
+    },
+    {
+     "en": "Latissimus Dorsi",
+     "kr": "광배근",
+     "img": "images/s25_latissimus_dorsi.webp"
+    },
+    {
+     "en": "Serratus Posterior Superior",
+     "kr": "상후거근",
+     "img": "images/s25_serratus_posterior_superior.webp"
+    },
+    {
+     "en": "First Dorsal Interosseus",
+     "kr": "제1배측골간근",
+     "img": "images/s25_first_dorsal_interosseus.webp"
+    },
+    {
+     "en": "Coracobrachialis",
+     "kr": "오구완근",
+     "img": "images/s25_coracobrachialis.webp"
+    }
+   ]
+  },
+  {
+   "num": "26",
+   "en": "Volar Wrist & Palmar Pain",
+   "kr": "수장 및 손바닥 통증",
+   "cat": 3,
+   "muscles": [
+    {
+     "en": "Pectoralis Major",
+     "kr": "대흉근",
+     "img": "images/s26_pectoralis_major.webp"
+    },
+    {
+     "en": "Flexor Carpi Radialis, Ulnaris",
+     "kr": "요측/척측수근굴근",
+     "img": "images/s26_flexor_carpi_radialis_ulnaris.webp"
+    },
+    {
+     "en": "Opponens Pollicis",
+     "kr": "무지대립근",
+     "img": "images/s26_opponens_pollicis.webp"
+    },
+    {
+     "en": "Pectoralis Minimus",
+     "kr": "소흉근",
+     "img": "images/s26_pectoralis_minimus.webp"
+    },
+    {
+     "en": "Latissimus Dorsi",
+     "kr": "광배근",
+     "img": "images/s26_latissimus_dorsi.webp"
+    },
+    {
+     "en": "Palmaris Longus",
+     "kr": "장장근",
+     "img": "images/s26_palmaris_longus.webp"
+    },
+    {
+     "en": "Pronator Teres",
+     "kr": "원회내근",
+     "img": "images/s26_pronator_teres.webp"
+    },
+    {
+     "en": "Serratus Anterior",
+     "kr": "전거근",
+     "img": "images/s26_serratus_anterior.webp"
+    }
+   ]
+  },
+  {
+   "num": "27",
+   "en": "Base-on-Thumb & Radial Hand Pain",
+   "kr": "무지 기저부 및 요측 손 통증",
+   "cat": 3,
+   "muscles": [
+    {
+     "en": "Supinator",
+     "kr": "회외근",
+     "img": "images/s27_supinator.webp"
+    },
+    {
+     "en": "Scalene",
+     "kr": "사각근",
+     "img": "images/s27_scalene.webp"
+    },
+    {
+     "en": "Brachialis",
+     "kr": "상완근",
+     "img": "images/s27_brachialis.webp"
+    },
+    {
+     "en": "Brachioradialis",
+     "kr": "상완요골근",
+     "img": "images/s27_brachioradialis.webp"
+    },
+    {
+     "en": "Opponens Pollicis, Adductor Pollicis",
+     "kr": "무지대립근·무지내전근",
+     "img": "images/s27_opponens_adductor_pollicis.webp"
+    },
+    {
+     "en": "Infraspinatus",
+     "kr": "극하근",
+     "img": "images/s27_infraspinatus.webp"
+    },
+    {
+     "en": "Extensor Carpi Radialis Longus",
+     "kr": "장요측수근신근",
+     "img": "images/s27_extensor_carpi_radialis_longus.webp"
+    },
+    {
+     "en": "First Dorsal Interosseus",
+     "kr": "제1배측골간근",
+     "img": "images/s27_first_dorsal_interosseus.webp"
+    },
+    {
+     "en": "Subclavius",
+     "kr": "쇄골하근",
+     "img": "images/s27_subclavius.webp"
+    },
+    {
+     "en": "Flexor Pollicis Longus",
+     "kr": "장무지굴근",
+     "img": "images/s27_flexor_pollicis_longus.webp"
+    }
+   ]
+  },
+  {
+   "num": "28",
+   "en": "Volar Finger Pain",
+   "kr": "수지 장측 통증",
+   "cat": 3,
+   "muscles": [
+    {
+     "en": "Flexor Digitorum superficialis Profundus",
+     "kr": "천지굴근·심지굴근",
+     "img": "images/s28_flexor_digitorum_superficialis_profundus.webp"
+    },
+    {
+     "en": "First & Second Dorsal Interosseous, Abductor Digiti Minimi",
+     "kr": "제1·2배측골간근·소지외전근",
+     "img": "images/s28_dorsal_interosseous_abductor_digiti_minimi.webp"
+    },
+    {
+     "en": "Latissimus Dorsi",
+     "kr": "광배근",
+     "img": "images/s28_latissimus_dorsi.webp"
+    },
+    {
+     "en": "Serratus Anterior",
+     "kr": "전거근",
+     "img": "images/s28_serratus_anterior.webp"
+    },
+    {
+     "en": "Subclavius",
+     "kr": "쇄골하근",
+     "img": "images/s28_subclavius.webp"
+    }
+   ]
+  },
+  {
+   "num": "29",
+   "en": "Dorsal Finger Pain",
+   "kr": "수지 배측 통증",
+   "cat": 3,
+   "muscles": [
+    {
+     "en": "Extensor Digitorum, Extensor Indicis",
+     "kr": "총지신근·시지신근",
+     "img": "images/s29_extensor_digitorum_indicis.webp"
+    },
+    {
+     "en": "First & Second Dorsal Interosseous, Abductor Digiti Minimi",
+     "kr": "제1·2배측골간근·소지외전근",
+     "img": "images/s29_dorsal_interosseous_abductor_digiti_minimi.webp"
+    },
+    {
+     "en": "Scalene",
+     "kr": "사각근",
+     "img": "images/s29_scalene.webp"
+    },
+    {
+     "en": "Pectoralis Major",
+     "kr": "대흉근",
+     "img": "images/s29_pectoralis_major.webp"
+    },
+    {
+     "en": "Pectoralis Minimus",
+     "kr": "소흉근",
+     "img": "images/s29_pectoralis_minimus.webp"
+    },
+    {
+     "en": "Latissimus Dorsi",
+     "kr": "광배근",
+     "img": "images/s29_latissimus_dorsi.webp"
+    },
+    {
+     "en": "Subclavius",
+     "kr": "쇄골하근",
+     "img": "images/s29_subclavius.webp"
+    }
+   ]
+  },
+  {
+   "num": "30",
+   "en": "Front of Chest Pain",
+   "kr": "전흉부 통증",
+   "cat": 4,
+   "muscles": [
+    {
+     "en": "Pectoralis Major",
+     "kr": "대흉근",
+     "img": "images/s30_pectoralis_major.webp"
+    },
+    {
+     "en": "Pectoralis Minimus",
+     "kr": "소흉근",
+     "img": "images/s30_pectoralis_minimus.webp"
+    },
+    {
+     "en": "Scalene",
+     "kr": "사각근",
+     "img": "images/s30_scalene.webp"
+    },
+    {
+     "en": "Sternocleidomastoid",
+     "kr": "흉쇄유돌근",
+     "img": "images/s30_scm.webp"
+    },
+    {
+     "en": "Sternalis",
+     "kr": "흉골근",
+     "img": "images/s30_sternalis.webp"
+    },
+    {
+     "en": "Intercostals",
+     "kr": "늑간근",
+     "img": "images/s30_intercostals.webp"
+    },
+    {
+     "en": "Subclavius",
+     "kr": "쇄골하근",
+     "img": "images/s30_subclavius.webp"
+    },
+    {
+     "en": "External Oblique",
+     "kr": "외복사근",
+     "img": "images/s30_external_oblique.webp"
+    },
+    {
+     "en": "Iliocostalis Thoracis",
+     "kr": "흉장늑근",
+     "img": "images/s30_iliocostalis_thoracis.webp"
+    }
+   ]
+  },
+  {
+   "num": "31",
+   "en": "Side of Chest Pain",
+   "kr": "측흉부 통증",
+   "cat": 4,
+   "muscles": [
+    {
+     "en": "Serratus Anterior",
+     "kr": "전거근",
+     "img": "images/s31_serratus_anterior.webp"
+    },
+    {
+     "en": "Intercostals",
+     "kr": "늑간근",
+     "img": "images/s31_intercostals.webp"
+    },
+    {
+     "en": "Latissimus Dorsi",
+     "kr": "광배근",
+     "img": "images/s31_latissimus_dorsi.webp"
+    }
+   ]
+  },
+  {
+   "num": "32",
+   "en": "Thoracic Back Pain",
+   "kr": "흉추부 등 통증",
+   "cat": 4,
+   "muscles": [
+    {
+     "en": "Iliocostalis Thoracis",
+     "kr": "흉장늑근",
+     "img": "images/s32_iliocostalis_thoracis.webp"
+    },
+    {
+     "en": "Multifidi",
+     "kr": "다열근",
+     "img": "images/s32_multifidi.webp"
+    },
+    {
+     "en": "Serratus Posterior Inferior",
+     "kr": "하후거근",
+     "img": "images/s32_serratus_posterior_inferior.webp"
+    },
+    {
+     "en": "Rectus Abdominis",
+     "kr": "복직근",
+     "img": "images/s32_rectus_abdominis.webp"
+    },
+    {
+     "en": "Latissimus Dorsi",
+     "kr": "광배근",
+     "img": "images/s32_latissimus_dorsi.webp"
+    },
+    {
+     "en": "Iliopsoas",
+     "kr": "장요근",
+     "img": "images/s32_iliopsoas.webp"
+    }
+   ]
+  },
+  {
+   "num": "33",
+   "en": "Abdominal Pain",
+   "kr": "복부 통증",
+   "cat": 4,
+   "muscles": [
+    {
+     "en": "Iliocostalis Thoracis",
+     "kr": "흉장늑근",
+     "img": "images/s33_iliocostalis_thoracis.webp"
+    },
+    {
+     "en": "Multifidi",
+     "kr": "다열근",
+     "img": "images/s33_multifidi.webp"
+    },
+    {
+     "en": "Rectus Abdominis",
+     "kr": "복직근",
+     "img": "images/s33_rectus_abdominis.webp"
+    },
+    {
+     "en": "Abdominal Obliques",
+     "kr": "복사근",
+     "img": "images/s33_abdominal_obliques.webp"
+    },
+    {
+     "en": "Pyramidalis",
+     "kr": "추체근",
+     "img": "images/s33_pyramidalis.webp"
+    },
+    {
+     "en": "Quadratus Lumborum",
+     "kr": "요방형근",
+     "img": "images/s33_quadratus_lumborum.webp"
+    }
+   ]
+  },
+  {
+   "num": "33-1",
+   "en": "Lower Abdominal Pain",
+   "kr": "하복부 통증",
+   "cat": 4,
+   "muscles": [
+    {
+     "en": "Rectus Abdominis",
+     "kr": "복직근",
+     "img": "images/s33-1_rectus_abdominis.webp"
+    },
+    {
+     "en": "Obliquus Externus Abdominis",
+     "kr": "외복사근",
+     "img": "images/s33-1_obliquus_externus_abdominis.webp"
+    },
+    {
+     "en": "Iliocostalis Thoracis",
+     "kr": "흉장늑근",
+     "img": "images/s33-1_iliocostalis_thoracis.webp"
+    },
+    {
+     "en": "Multifidi",
+     "kr": "다열근",
+     "img": "images/s33-1_multifidi.webp"
+    },
+    {
+     "en": "Quadratus Lumborum",
+     "kr": "요방형근",
+     "img": "images/s33-1_quadratus_lumborum.webp"
+    },
+    {
+     "en": "Pyramidalis",
+     "kr": "추체근",
+     "img": "images/s33-1_pyramidalis.webp"
+    }
+   ]
+  },
+  {
+   "num": "34",
+   "en": "Pelvic Pain",
+   "kr": "골반 통증",
+   "cat": 5,
+   "muscles": [
+    {
+     "en": "Coccygeus",
+     "kr": "미골근",
+     "img": "images/s34_pelvic_floor_muscles.webp"
+    },
+    {
+     "en": "Levator Ani",
+     "kr": "항문올림근",
+     "img": "images/s34_pelvic_floor_muscles.webp"
+    },
+    {
+     "en": "Obturator Internus",
+     "kr": "내폐쇄근",
+     "img": "images/s34_pelvic_floor_muscles.webp"
+    },
+    {
+     "en": "Adductor Magnus",
+     "kr": "대내전근",
+     "img": "images/s34_adductor_magnus.webp"
+    },
+    {
+     "en": "Piriformis",
+     "kr": "이상근",
+     "img": "images/s34_piriformis.webp"
+    },
+    {
+     "en": "Abdominal Obliques",
+     "kr": "복사근",
+     "img": "images/s34_abdominal_obliques.webp"
+    }
+   ]
+  },
+  {
+   "num": "35",
+   "en": "Lumbar Pain",
+   "kr": "요통",
+   "cat": 5,
+   "muscles": [
+    {
+     "en": "Longissimus Thoracis",
+     "kr": "흉최장근",
+     "img": "images/s35_longissimus_thoracis.webp"
+    },
+    {
+     "en": "Multifidi",
+     "kr": "다열근",
+     "img": "images/s35_multifidi.webp"
+    },
+    {
+     "en": "Rectus Abdominis",
+     "kr": "복직근",
+     "img": "images/s35_rectus_abdominis.webp"
+    },
+    {
+     "en": "Iliopsoas",
+     "kr": "장요근",
+     "img": "images/s35_iliopsoas.webp"
+    },
+    {
+     "en": "Iliocostalis Lumborum",
+     "kr": "요장늑근",
+     "img": "images/s35_iliocostalis_lumborum.webp"
+    },
+    {
+     "en": "Iliocostalis Thoracis",
+     "kr": "흉장늑근",
+     "img": "images/s35_iliocostalis_thoracis.webp"
+    },
+    {
+     "en": "Gluteus Medius",
+     "kr": "중둔근",
+     "img": "images/s35_gluteus_medius.webp"
+    }
+   ]
+  },
+  {
+   "num": "36",
+   "en": "Iliosacral Pain",
+   "kr": "천장관절 통증",
+   "cat": 5,
+   "muscles": [
+    {
+     "en": "Levator Ani",
+     "kr": "항문올림근",
+     "img": "images/s36_pelvic_floor_muscles.webp"
+    },
+    {
+     "en": "Coccygeus",
+     "kr": "미골근",
+     "img": "images/s36_pelvic_floor_muscles.webp"
+    },
+    {
+     "en": "Obturator Internus",
+     "kr": "내폐쇄근",
+     "img": "images/s36_pelvic_floor_muscles.webp"
+    },
+    {
+     "en": "Gluteus Medius",
+     "kr": "중둔근",
+     "img": "images/s36_gluteus_medius.webp"
+    },
+    {
+     "en": "Quadratus Lumborum",
+     "kr": "요방형근",
+     "img": "images/s36_quadratus_lumborum.webp"
+    },
+    {
+     "en": "Gluteus Maximus",
+     "kr": "대둔근",
+     "img": "images/s36_gluteus_maximus.webp"
+    },
+    {
+     "en": "Multifidi",
+     "kr": "다열근",
+     "img": "images/s36_multifidi.webp"
+    },
+    {
+     "en": "Iliopsoas",
+     "kr": "장요근",
+     "img": "images/s36_iliopsoas.webp"
+    },
+    {
+     "en": "Longissimus Thoracis",
+     "kr": "흉최장근",
+     "img": "images/s36_longissimus_thoracis.webp"
+    },
+    {
+     "en": "Rectus Abdominis",
+     "kr": "복직근",
+     "img": "images/s36_rectus_abdominis.webp"
+    },
+    {
+     "en": "Soleus",
+     "kr": "가자미근",
+     "img": "images/s36_soleus.webp"
+    }
+   ]
+  },
+  {
+   "num": "37",
+   "en": "Buttock Pain",
+   "kr": "둔부 통증",
+   "cat": 5,
+   "muscles": [
+    {
+     "en": "Gluteus Medius",
+     "kr": "중둔근",
+     "img": "images/s37_gluteus_medius.webp"
+    },
+    {
+     "en": "Quadratus Lumborum",
+     "kr": "요방형근",
+     "img": "images/s37_quadratus_lumborum.webp"
+    },
+    {
+     "en": "Gluteus Maximus",
+     "kr": "대둔근",
+     "img": "images/s37_gluteus_maximus.webp"
+    },
+    {
+     "en": "Iliocostalis Lumborum",
+     "kr": "요장늑근",
+     "img": "images/s37_iliocostalis_lumborum.webp"
+    },
+    {
+     "en": "Longissimus Thoracis",
+     "kr": "흉최장근",
+     "img": "images/s37_longissimus_thoracis.webp"
+    },
+    {
+     "en": "Semimembranosus",
+     "kr": "반막양근",
+     "img": "images/s37_hamstrings_medial.webp"
+    },
+    {
+     "en": "Semitendinosus",
+     "kr": "반건양근",
+     "img": "images/s37_hamstrings_medial.webp"
+    },
+    {
+     "en": "Piriformis",
+     "kr": "이상근",
+     "img": "images/s37_piriformis.webp"
+    },
+    {
+     "en": "Gluteus Minimus",
+     "kr": "소둔근",
+     "img": "images/s37_gluteus_minimus.webp"
+    },
+    {
+     "en": "Rectus Abdominis",
+     "kr": "복직근",
+     "img": "images/s37_rectus_abdominis.webp"
+    },
+    {
+     "en": "Soleus",
+     "kr": "가자미근",
+     "img": "images/s37_soleus.webp"
+    }
+   ]
+  },
+  {
+   "num": "38",
+   "en": "Lateral Thigh & Hip Pain",
+   "kr": "대퇴 외측 및 고관절 통증",
+   "cat": 6,
+   "muscles": [
+    {
+     "en": "Gluteus Minimus",
+     "kr": "소둔근",
+     "img": "images/s38_gluteus_minimus.webp"
+    },
+    {
+     "en": "Vastus Lateralis",
+     "kr": "외측광근",
+     "img": "images/s38_vastus_lateralis.webp"
+    },
+    {
+     "en": "Piriformis",
+     "kr": "이상근",
+     "img": "images/s38_piriformis.webp"
+    },
+    {
+     "en": "Quadratus Lumborum",
+     "kr": "요방형근",
+     "img": "images/s38_quadratus_lumborum.webp"
+    },
+    {
+     "en": "Tensor Fasciae Latae",
+     "kr": "대퇴근막장근",
+     "img": "images/s38_tensor_fasciae_latae.webp"
+    },
+    {
+     "en": "Vastus Intermedius",
+     "kr": "중간광근",
+     "img": "images/s38_vastus_intermedius.webp"
+    },
+    {
+     "en": "Gluteus Maximus",
+     "kr": "대둔근",
+     "img": "images/s38_gluteus_maximus.webp"
+    },
+    {
+     "en": "Rectus Femoris",
+     "kr": "대퇴직근",
+     "img": "images/s38_rectus_femoris.webp"
+    }
+   ]
+  },
+  {
+   "num": "39",
+   "en": "Posterior Thigh Pain",
+   "kr": "대퇴 후면 통증",
+   "cat": 6,
+   "muscles": [
+    {
+     "en": "Gluteus Minimus",
+     "kr": "소둔근",
+     "img": "images/s39_gluteus_minimus.webp"
+    },
+    {
+     "en": "Semitendinosus",
+     "kr": "반건양근",
+     "img": "images/s39_hamstrings_biceps_femoris.webp"
+    },
+    {
+     "en": "Semimembranosus",
+     "kr": "반막양근",
+     "img": "images/s39_hamstrings_biceps_femoris.webp"
+    },
+    {
+     "en": "Biceps Femoris",
+     "kr": "대퇴이두근",
+     "img": "images/s39_hamstrings_biceps_femoris.webp"
+    },
+    {
+     "en": "Piriformis",
+     "kr": "이상근",
+     "img": "images/s39_piriformis.webp"
+    },
+    {
+     "en": "Obturator Internus",
+     "kr": "내폐쇄근",
+     "img": "images/s39_pelvic_floor_muscles.webp"
+    }
+   ]
+  },
+  {
+   "num": "40",
+   "en": "Medial Thigh Pain",
+   "kr": "대퇴 내측 통증",
+   "cat": 6,
+   "muscles": [
+    {
+     "en": "Pectineus",
+     "kr": "치골근",
+     "img": "images/s40_pectineus.webp"
+    },
+    {
+     "en": "Vastus Medialis",
+     "kr": "내측광근",
+     "img": "images/s40_vastus_medialis.webp"
+    },
+    {
+     "en": "Gracilis",
+     "kr": "박근",
+     "img": "images/s40_gracilis.webp"
+    },
+    {
+     "en": "Adductor Magnus",
+     "kr": "대내전근",
+     "img": "images/s40_adductor_magnus.webp"
+    },
+    {
+     "en": "Sartorius",
+     "kr": "봉공근",
+     "img": "images/s40_sartorius.webp"
+    }
+   ]
+  },
+  {
+   "num": "41",
+   "en": "Anterior Thigh Pain",
+   "kr": "대퇴 전면 통증",
+   "cat": 6,
+   "muscles": [
+    {
+     "en": "Adductor Longus",
+     "kr": "장내전근",
+     "img": "images/s41_adductor_longus_brevis.webp"
+    },
+    {
+     "en": "Adductor Brevis",
+     "kr": "단내전근",
+     "img": "images/s41_adductor_longus_brevis.webp"
+    },
+    {
+     "en": "Iliopsoas",
+     "kr": "장요근",
+     "img": "images/s41_iliopsoas.webp"
+    },
+    {
+     "en": "Adductor Magnus",
+     "kr": "대내전근",
+     "img": "images/s41_adductor_magnus.webp"
+    },
+    {
+     "en": "Vastus Intermedius",
+     "kr": "중간광근",
+     "img": "images/s41_vastus_intermedius.webp"
+    },
+    {
+     "en": "Sartorius",
+     "kr": "봉공근",
+     "img": "images/s41_sartorius.webp"
+    },
+    {
+     "en": "Pectineus",
+     "kr": "치골근",
+     "img": "images/s41_pectineus.webp"
+    },
+    {
+     "en": "Quadratus Lumborum",
+     "kr": "요방형근",
+     "img": "images/s41_quadratus_lumborum.webp"
+    },
+    {
+     "en": "Rectus Femoris",
+     "kr": "대퇴직근",
+     "img": "images/s41_rectus_femoris.webp"
+    }
+   ]
+  },
+  {
+   "num": "42",
+   "en": "Anterior Knee Pain",
+   "kr": "슬관절 전면 통증",
+   "cat": 6,
+   "muscles": [
+    {
+     "en": "Rectus Femoris",
+     "kr": "대퇴직근",
+     "img": "images/s42_rectus_femoris.webp"
+    },
+    {
+     "en": "Vastus Medialis",
+     "kr": "내측광근",
+     "img": "images/s42_vastus_medialis.webp"
+    },
+    {
+     "en": "Adductor Longus",
+     "kr": "장내전근",
+     "img": "images/s42_adductor_longus_brevis.webp"
+    },
+    {
+     "en": "Adductor Brevis",
+     "kr": "단내전근",
+     "img": "images/s42_adductor_longus_brevis.webp"
+    }
+   ]
+  },
+  {
+   "num": "43",
+   "en": "Lateral Knee Pain",
+   "kr": "슬관절 외측 통증",
+   "cat": 6,
+   "muscles": [
+    {
+     "en": "Vastus Lateralis",
+     "kr": "외측광근",
+     "img": "images/s43_vastus_lateralis.webp"
+    },
+    {
+     "en": "Ligamentous TrP in fibular collateral ligament",
+     "kr": "비골측부인대(인대성 압통점)",
+     "img": "images/s43_fibular_collateral_ligament.webp"
+    }
+   ]
+  },
+  {
+   "num": "44",
+   "en": "Posterior Knee Pain",
+   "kr": "슬관절 후면 통증 (오금)",
+   "cat": 6,
+   "muscles": [
+    {
+     "en": "Gastrocnemius",
+     "kr": "비복근",
+     "img": "images/s44_gastrocnemius.webp"
+    },
+    {
+     "en": "Biceps Femoris",
+     "kr": "대퇴이두근",
+     "img": "images/s44_hamstrings_biceps_femoris.webp"
+    },
+    {
+     "en": "Popliteus",
+     "kr": "슬와근",
+     "img": "images/s44_popliteus.webp"
+    },
+    {
+     "en": "Plantaris",
+     "kr": "족저근",
+     "img": "images/s44_plantaris.webp"
+    },
+    {
+     "en": "Semitendinosus",
+     "kr": "반건양근",
+     "img": "images/s44_hamstrings_semi.webp"
+    },
+    {
+     "en": "Semimembranosus",
+     "kr": "반막양근",
+     "img": "images/s44_hamstrings_semi.webp"
+    },
+    {
+     "en": "Soleus",
+     "kr": "가자미근",
+     "img": "images/s44_soleus.webp"
+    }
+   ]
+  },
+  {
+   "num": "45",
+   "en": "Anteromedial Knee Pain",
+   "kr": "슬관절 전내측 통증",
+   "cat": 6,
+   "muscles": [
+    {
+     "en": "Vastus Medialis",
+     "kr": "내측광근",
+     "img": "images/s45_vastus_medialis.webp"
+    },
+    {
+     "en": "Gracilis",
+     "kr": "박근",
+     "img": "images/s45_gracilis.webp"
+    },
+    {
+     "en": "Rectus Femoris",
+     "kr": "대퇴직근",
+     "img": "images/s45_rectus_femoris.webp"
+    },
+    {
+     "en": "Sartorius",
+     "kr": "봉공근",
+     "img": "images/s45_sartorius.webp"
+    },
+    {
+     "en": "Adductor Longus and Brevis",
+     "kr": "장내전근·단내전근",
+     "img": "images/s45_adductor_longus_brevis.webp"
+    }
+   ]
+  },
+  {
+   "num": "46",
+   "en": "Lateral Leg Pain",
+   "kr": "하퇴 외측 통증",
+   "cat": 7,
+   "muscles": [
+    {
+     "en": "Gastrocnemius",
+     "kr": "비복근",
+     "img": "images/s46_gastrocnemius.webp"
+    },
+    {
+     "en": "Gluteus Minimus",
+     "kr": "소둔근",
+     "img": "images/s46_gluteus_minimus.webp"
+    },
+    {
+     "en": "Peroneus Longus and Brevis",
+     "kr": "비골근(장,단)",
+     "img": "images/s46_peroneus_longus_brevis.webp"
+    },
+    {
+     "en": "Vastus Lateralis",
+     "kr": "외측광근",
+     "img": "images/s46_vastus_lateralis.webp"
+    }
+   ]
+  },
+  {
+   "num": "47",
+   "en": "Anterior Leg Pain",
+   "kr": "하퇴 전면 통증",
+   "cat": 7,
+   "muscles": [
+    {
+     "en": "Tibialis Anterior",
+     "kr": "전경골근",
+     "img": "images/s47_tibialis_anterior.webp"
+    },
+    {
+     "en": "Adductor Longus and Brevis",
+     "kr": "장내전근·단내전근",
+     "img": "images/s47_adductor_longus_brevis.webp"
+    }
+   ]
+  },
+  {
+   "num": "48",
+   "en": "Posterior Leg (Calf) Pain",
+   "kr": "하퇴 후면(종아리) 통증",
+   "cat": 7,
+   "muscles": [
+    {
+     "en": "Soleus",
+     "kr": "가자미근",
+     "img": "images/s48_soleus.webp"
+    },
+    {
+     "en": "Gluteus Minimus",
+     "kr": "소둔근",
+     "img": "images/s48_gluteus_minimus.webp"
+    },
+    {
+     "en": "Gastrocnemius",
+     "kr": "비복근",
+     "img": "images/s48_gastrocnemius.webp"
+    },
+    {
+     "en": "Semitendinosus and Semimembranosus",
+     "kr": "반건양근·반막양근",
+     "img": "images/s48_semitendinosus_semimembranosus.webp"
+    },
+    {
+     "en": "Flexor Digitorum Longus",
+     "kr": "장지굴근",
+     "img": "images/s48_flexor_digitorum_longus.webp"
+    },
+    {
+     "en": "Tibialis Posterior",
+     "kr": "후경골근",
+     "img": "images/s48_tibialis_posterior.webp"
+    },
+    {
+     "en": "Plantaris",
+     "kr": "족저근",
+     "img": "images/s48_plantaris.webp"
+    }
+   ]
+  },
+  {
+   "num": "49",
+   "en": "Posterior Ankle Pain",
+   "kr": "족관절 후면 통증",
+   "cat": 7,
+   "muscles": [
+    {
+     "en": "Soleus",
+     "kr": "가자미근",
+     "img": "images/s49_soleus.webp"
+    },
+    {
+     "en": "Tibialis Posterior",
+     "kr": "후경골근",
+     "img": "images/s49_tibialis_posterior.webp"
+    }
+   ]
+  },
+  {
+   "num": "50",
+   "en": "Heel Pain",
+   "kr": "족근부(뒤꿈치) 통증",
+   "cat": 7,
+   "muscles": [
+    {
+     "en": "Soleus",
+     "kr": "가자미근",
+     "img": "images/s50_soleus.webp"
+    },
+    {
+     "en": "Quadratus Plantae",
+     "kr": "족저방형근",
+     "img": "images/s50_quadratus_plantae.webp"
+    },
+    {
+     "en": "Abductor Hallucis",
+     "kr": "무지외전근",
+     "img": "images/s50_abductor_hallucis.webp"
+    },
+    {
+     "en": "Tibialis Posterior",
+     "kr": "후경골근",
+     "img": "images/s50_tibialis_posterior.webp"
+    }
+   ]
+  },
+  {
+   "num": "51",
+   "en": "Lateral Ankle Pain",
+   "kr": "외과(외측 복사뼈) 통증",
+   "cat": 7,
+   "muscles": [
+    {
+     "en": "Peroneus Brevis, Longus, and Tertius",
+     "kr": "비골근(단,장,제3)",
+     "img": "images/s51_peroneus_longus_brevis_tertius.webp"
+    }
+   ]
+  },
+  {
+   "num": "52",
+   "en": "Medial Ankle Pain",
+   "kr": "내과(내측 복사뼈) 통증",
+   "cat": 7,
+   "muscles": [
+    {
+     "en": "Abductor Hallucis",
+     "kr": "무지외전근",
+     "img": "images/s52_abductor_hallucis.webp"
+    },
+    {
+     "en": "Flexor Digitorum Longus",
+     "kr": "장지굴근",
+     "img": "images/s52_flexor_digitorum_longus.webp"
+    }
+   ]
+  },
+  {
+   "num": "53",
+   "en": "Anterior Ankle Pain",
+   "kr": "족관절 전면 통증",
+   "cat": 7,
+   "muscles": [
+    {
+     "en": "Tibialis Anterior",
+     "kr": "전경골근",
+     "img": "images/s53_tibialis_anterior.webp"
+    },
+    {
+     "en": "Peroneus Tertius",
+     "kr": "제3비골근",
+     "img": "images/s53_peroneus_tertius.webp"
+    },
+    {
+     "en": "Extensor Digitorum Longus",
+     "kr": "장지신근",
+     "img": "images/s53_extensor_digitorum_longus.webp"
+    },
+    {
+     "en": "Extensor Hallucis Longus",
+     "kr": "장무지신근",
+     "img": "images/s53_extensor_hallucis_longus.webp"
+    }
+   ]
+  },
+  {
+   "num": "54",
+   "en": "Dorsal Forefoot Pain",
+   "kr": "전족부 족배 통증",
+   "cat": 7,
+   "muscles": [
+    {
+     "en": "Extensor Digitorum Brevis and Extensor Hallucis Brevis",
+     "kr": "단지신근·단무지신근",
+     "img": "images/s54_extensor_digitorum_hallucis_brevis.webp"
+    },
+    {
+     "en": "Extensor Digitorum Longus and Extensor Hallucis Longus",
+     "kr": "장지신근·장무지신근",
+     "img": "images/s54_extensor_digitorum_hallucis_longus.webp"
+    },
+    {
+     "en": "Flexor Hallucis Brevis",
+     "kr": "단무지굴근",
+     "img": "images/s54_flexor_hallucis_brevis.webp"
+    },
+    {
+     "en": "Interossei of Foot",
+     "kr": "족골간근",
+     "img": "images/s54_interossei.webp"
+    },
+    {
+     "en": "Tibialis Anterior",
+     "kr": "전경골근",
+     "img": "images/s54_tibialis_anterior.webp"
+    }
+   ]
+  },
+  {
+   "num": "55",
+   "en": "Dorsal Great Toe Pain",
+   "kr": "엄지발가락 등 통증",
+   "cat": 7,
+   "muscles": [
+    {
+     "en": "Tibialis Anterior",
+     "kr": "전경골근",
+     "img": "images/s55_tibialis_anterior.webp"
+    },
+    {
+     "en": "Extensor Hallucis Longus",
+     "kr": "장무지신근",
+     "img": "images/s55_extensor_hallucis_longus.webp"
+    },
+    {
+     "en": "Extensor Hallucis Brevis",
+     "kr": "단무지신근",
+     "img": "images/s55_extensor_hallucis_brevis.webp"
+    }
+   ]
+  },
+  {
+   "num": "56",
+   "en": "Dorsal Lesser Toe Pain",
+   "kr": "나머지 발가락 등 통증",
+   "cat": 7,
+   "muscles": [
+    {
+     "en": "Interossei of Foot",
+     "kr": "족골간근",
+     "img": "images/s56_interossei.webp"
+    },
+    {
+     "en": "Extensor Digitorum Longus",
+     "kr": "장지신근",
+     "img": "images/s56_extensor_digitorum_longus.webp"
+    }
+   ]
+  },
+  {
+   "num": "57",
+   "en": "Plantar Midfoot Pain",
+   "kr": "중족부 족저 통증",
+   "cat": 7,
+   "muscles": [
+    {
+     "en": "Gastrocnemius",
+     "kr": "비복근",
+     "img": "images/s57_gastrocnemius.webp"
+    },
+    {
+     "en": "Flexor Digitorum Longus",
+     "kr": "장지굴근",
+     "img": "images/s57_flexor_digitorum_longus.webp"
+    },
+    {
+     "en": "Abductor Hallucis",
+     "kr": "무지외전근",
+     "img": "images/s57_abductor_hallucis.webp"
+    },
+    {
+     "en": "Soleus",
+     "kr": "가자미근",
+     "img": "images/s57_soleus.webp"
+    },
+    {
+     "en": "Interossei of Foot",
+     "kr": "족골간근",
+     "img": "images/s57_interossei.webp"
+    },
+    {
+     "en": "Tibialis Posterior",
+     "kr": "후경골근",
+     "img": "images/s57_tibialis_posterior.webp"
+    }
+   ]
+  },
+  {
+   "num": "58",
+   "en": "Metatarsal Head Pain",
+   "kr": "중족골두 통증",
+   "cat": 7,
+   "muscles": [
+    {
+     "en": "Flexor Hallucis Brevis",
+     "kr": "단무지굴근",
+     "img": "images/s58_flexor_hallucis_brevis.webp"
+    },
+    {
+     "en": "Interossei of Foot",
+     "kr": "족골간근",
+     "img": "images/s58_interossei.webp"
+    },
+    {
+     "en": "Tibialis Posterior",
+     "kr": "후경골근",
+     "img": "images/s58_tibialis_posterior.webp"
+    },
+    {
+     "en": "Abductor Digiti Minimi (Foot)",
+     "kr": "소지외전근",
+     "img": "images/s58_abductor_digiti_minimi.webp"
+    },
+    {
+     "en": "Adductor Hallucis",
+     "kr": "무지내전근",
+     "img": "images/s58_adductor_hallucis.webp"
+    },
+    {
+     "en": "Flexor Digitorum Longus",
+     "kr": "장지굴근",
+     "img": "images/s58_flexor_digitorum_longus.webp"
+    }
+   ]
+  },
+  {
+   "num": "59",
+   "en": "Plantar Great Toe Pain",
+   "kr": "엄지발가락 바닥 통증",
+   "cat": 7,
+   "muscles": [
+    {
+     "en": "Flexor Hallucis Longus",
+     "kr": "장무지굴근",
+     "img": "images/s59_flexor_hallucis_longus.webp"
+    },
+    {
+     "en": "Flexor Hallucis Brevis",
+     "kr": "단무지굴근",
+     "img": "images/s59_flexor_hallucis_brevis.webp"
+    },
+    {
+     "en": "Tibialis Posterior",
+     "kr": "후경골근",
+     "img": "images/s59_tibialis_posterior.webp"
+    }
+   ]
+  },
+  {
+   "num": "60",
+   "en": "Plantar Lesser Toe Pain",
+   "kr": "나머지 발가락 바닥 통증",
+   "cat": 7,
+   "muscles": [
+    {
+     "en": "Flexor Digitorum Longus",
+     "kr": "장지굴근",
+     "img": "images/s60_flexor_digitorum_longus.webp"
+    },
+    {
+     "en": "Tibialis Posterior",
+     "kr": "후경골근",
+     "img": "images/s60_tibialis_posterior.webp"
+    }
+   ]
+  }
+ ],
+ "maps": [
+  {
+   "catNum": 1,
+   "img": "images/head_neck_map.webp",
+   "width": 923,
+   "height": 512,
+   "regions": {
+    "1": [
+     [
+      [
+       359,
+       56
+      ],
+      [
+       374,
+       64
+      ],
+      [
+       388,
+       68
+      ],
+      [
+       428,
+       70
+      ],
+      [
+       490,
+       64
+      ],
+      [
+       523,
+       53
+      ],
+      [
+       499,
+       45
+      ],
+      [
+       472,
+       41
+      ],
+      [
+       457,
+       50
+      ],
+      [
+       454,
+       55
+      ],
+      [
+       451,
+       55
+      ],
+      [
+       448,
+       52
+      ],
+      [
+       451,
+       47
+      ],
+      [
+       456,
+       47
+      ],
+      [
+       468,
+       40
+      ],
+      [
+       426,
+       38
+      ],
+      [
+       389,
+       44
+      ]
+     ]
+    ],
+    "2": [
+     [
+      [
+       532,
+       55
+      ],
+      [
+       519,
+       63
+      ],
+      [
+       509,
+       66
+      ],
+      [
+       508,
+       70
+      ],
+      [
+       519,
+       99
+      ],
+      [
+       518,
+       103
+      ],
+      [
+       522,
+       106
+      ],
+      [
+       527,
+       118
+      ],
+      [
+       533,
+       144
+      ],
+      [
+       536,
+       148
+      ],
+      [
+       563,
+       133
+      ],
+      [
+       585,
+       129
+      ],
+      [
+       588,
+       125
+      ],
+      [
+       586,
+       119
+      ],
+      [
+       579,
+       116
+      ],
+      [
+       581,
+       114
+      ],
+      [
+       584,
+       115
+      ],
+      [
+       575,
+       93
+      ],
+      [
+       568,
+       84
+      ],
+      [
+       531,
+       100
+      ],
+      [
+       529,
+       98
+      ],
+      [
+       565,
+       81
+      ],
+      [
+       551,
+       66
+      ]
+     ]
+    ],
+    "3": [
+     [
+      [
+       590,
+       136
+      ],
+      [
+       561,
+       142
+      ],
+      [
+       533,
+       162
+      ],
+      [
+       523,
+       202
+      ],
+      [
+       538,
+       218
+      ],
+      [
+       550,
+       222
+      ],
+      [
+       562,
+       221
+      ],
+      [
+       582,
+       212
+      ],
+      [
+       593,
+       202
+      ],
+      [
+       591,
+       185
+      ],
+      [
+       578,
+       186
+      ],
+      [
+       582,
+       191
+      ],
+      [
+       578,
+       195
+      ],
+      [
+       577,
+       206
+      ],
+      [
+       568,
+       206
+      ],
+      [
+       566,
+       200
+      ],
+      [
+       562,
+       206
+      ],
+      [
+       556,
+       203
+      ],
+      [
+       577,
+       192
+      ],
+      [
+       575,
+       188
+      ],
+      [
+       562,
+       194
+      ],
+      [
+       552,
+       204
+      ],
+      [
+       550,
+       202
+      ],
+      [
+       564,
+       188
+      ],
+      [
+       574,
+       185
+      ],
+      [
+       583,
+       177
+      ],
+      [
+       572,
+       174
+      ],
+      [
+       551,
+       182
+      ],
+      [
+       549,
+       180
+      ],
+      [
+       562,
+       171
+      ],
+      [
+       589,
+       167
+      ],
+      [
+       591,
+       173
+      ],
+      [
+       584,
+       181
+      ],
+      [
+       592,
+       182
+      ],
+      [
+       596,
+       167
+      ]
+     ]
+    ],
+    "4": [
+     [
+      [
+       473,
+       214
+      ],
+      [
+       474,
+       235
+      ],
+      [
+       493,
+       260
+      ],
+      [
+       492,
+       275
+      ],
+      [
+       464,
+       292
+      ],
+      [
+       473,
+       341
+      ],
+      [
+       497,
+       354
+      ],
+      [
+       570,
+       370
+      ],
+      [
+       593,
+       367
+      ],
+      [
+       599,
+       356
+      ],
+      [
+       593,
+       328
+      ],
+      [
+       547,
+       320
+      ],
+      [
+       516,
+       307
+      ],
+      [
+       535,
+       272
+      ],
+      [
+       566,
+       281
+      ],
+      [
+       601,
+       284
+      ],
+      [
+       605,
+       269
+      ],
+      [
+       588,
+       270
+      ],
+      [
+       580,
+       256
+      ],
+      [
+       588,
+       251
+      ],
+      [
+       591,
+       255
+      ],
+      [
+       613,
+       236
+      ],
+      [
+       598,
+       211
+      ],
+      [
+       563,
+       228
+      ],
+      [
+       543,
+       226
+      ],
+      [
+       517,
+       210
+      ]
+     ]
+    ],
+    "5": [
+     [
+      [
+       390,
+       201
+      ],
+      [
+       379,
+       224
+      ],
+      [
+       378,
+       242
+      ],
+      [
+       381,
+       254
+      ],
+      [
+       384,
+       253
+      ],
+      [
+       386,
+       255
+      ],
+      [
+       383,
+       258
+      ],
+      [
+       386,
+       265
+      ],
+      [
+       397,
+       276
+      ],
+      [
+       417,
+       287
+      ],
+      [
+       446,
+       291
+      ],
+      [
+       465,
+       286
+      ],
+      [
+       482,
+       275
+      ],
+      [
+       485,
+       268
+      ],
+      [
+       483,
+       258
+      ],
+      [
+       467,
+       243
+      ],
+      [
+       463,
+       213
+      ],
+      [
+       454,
+       197
+      ],
+      [
+       433,
+       187
+      ],
+      [
+       419,
+       186
+      ],
+      [
+       401,
+       192
+      ]
+     ]
+    ],
+    "6": [
+     [
+      [
+       528,
+       301
+      ],
+      [
+       528,
+       305
+      ],
+      [
+       531,
+       308
+      ],
+      [
+       538,
+       311
+      ],
+      [
+       572,
+       318
+      ],
+      [
+       585,
+       318
+      ],
+      [
+       597,
+       320
+      ],
+      [
+       601,
+       315
+      ],
+      [
+       600,
+       309
+      ],
+      [
+       597,
+       307
+      ],
+      [
+       587,
+       308
+      ],
+      [
+       585,
+       306
+      ],
+      [
+       593,
+       302
+      ],
+      [
+       599,
+       303
+      ],
+      [
+       604,
+       295
+      ],
+      [
+       604,
+       291
+      ],
+      [
+       577,
+       290
+      ],
+      [
+       544,
+       282
+      ],
+      [
+       539,
+       282
+      ],
+      [
+       535,
+       286
+      ]
+     ]
+    ],
+    "7": [
+     [
+      [
+       426,
+       294
+      ],
+      [
+       425,
+       471
+      ],
+      [
+       507,
+       479
+      ],
+      [
+       503,
+       473
+      ],
+      [
+       507,
+       448
+      ],
+      [
+       527,
+       393
+      ],
+      [
+       537,
+       386
+      ],
+      [
+       569,
+       378
+      ],
+      [
+       538,
+       374
+      ],
+      [
+       473,
+       351
+      ],
+      [
+       461,
+       333
+      ],
+      [
+       456,
+       294
+      ]
+     ]
+    ],
+    "8": [
+     [
+      [
+       501,
+       69
+      ],
+      [
+       425,
+       78
+      ],
+      [
+       425,
+       174
+      ],
+      [
+       443,
+       177
+      ],
+      [
+       454,
+       183
+      ],
+      [
+       471,
+       206
+      ],
+      [
+       515,
+       202
+      ],
+      [
+       519,
+       179
+      ],
+      [
+       530,
+       157
+      ],
+      [
+       527,
+       140
+      ],
+      [
+       514,
+       107
+      ],
+      [
+       482,
+       121
+      ],
+      [
+       478,
+       126
+      ],
+      [
+       472,
+       123
+      ],
+      [
+       474,
+       118
+      ],
+      [
+       482,
+       118
+      ],
+      [
+       515,
+       104
+      ]
+     ]
+    ],
+    "9": [
+     [
+      [
+       351,
+       59
+      ],
+      [
+       326,
+       76
+      ],
+      [
+       299,
+       108
+      ],
+      [
+       282,
+       152
+      ],
+      [
+       299,
+       154
+      ],
+      [
+       280,
+       156
+      ],
+      [
+       277,
+       207
+      ],
+      [
+       288,
+       240
+      ],
+      [
+       314,
+       270
+      ],
+      [
+       385,
+       278
+      ],
+      [
+       374,
+       259
+      ],
+      [
+       368,
+       257
+      ],
+      [
+       372,
+       255
+      ],
+      [
+       369,
+       223
+      ],
+      [
+       381,
+       198
+      ],
+      [
+       401,
+       182
+      ],
+      [
+       415,
+       177
+      ],
+      [
+       416,
+       78
+      ],
+      [
+       376,
+       73
+      ]
+     ]
+    ],
+    "10": [
+     [
+      [
+       321,
+       280
+      ],
+      [
+       337,
+       320
+      ],
+      [
+       344,
+       371
+      ],
+      [
+       340,
+       418
+      ],
+      [
+       320,
+       448
+      ],
+      [
+       360,
+       463
+      ],
+      [
+       414,
+       472
+      ],
+      [
+       417,
+       297
+      ],
+      [
+       396,
+       287
+      ],
+      [
+       364,
+       286
+      ],
+      [
+       365,
+       291
+      ],
+      [
+       350,
+       284
+      ],
+      [
+       346,
+       287
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "catNum": 2,
+   "img": "images/shoulder_arm_map.webp",
+   "width": 966,
+   "height": 1024,
+   "regions": {
+    "11": [
+     [
+      [
+       79,
+       250
+      ],
+      [
+       79,
+       264
+      ],
+      [
+       83,
+       259
+      ],
+      [
+       85,
+       261
+      ],
+      [
+       80,
+       269
+      ],
+      [
+       77,
+       268
+      ],
+      [
+       79,
+       283
+      ],
+      [
+       81,
+       280
+      ],
+      [
+       83,
+       282
+      ],
+      [
+       78,
+       288
+      ],
+      [
+       79,
+       301
+      ],
+      [
+       77,
+       303
+      ],
+      [
+       81,
+       299
+      ],
+      [
+       84,
+       301
+      ],
+      [
+       79,
+       308
+      ],
+      [
+       79,
+       313
+      ],
+      [
+       152,
+       310
+      ],
+      [
+       203,
+       297
+      ],
+      [
+       178,
+       277
+      ],
+      [
+       155,
+       263
+      ],
+      [
+       126,
+       286
+      ],
+      [
+       124,
+       284
+      ],
+      [
+       149,
+       261
+      ],
+      [
+       129,
+       243
+      ],
+      [
+       119,
+       247
+      ]
+     ]
+    ],
+    "12": [
+     [
+      [
+       157,
+       320
+      ],
+      [
+       78,
+       324
+      ],
+      [
+       77,
+       348
+      ],
+      [
+       83,
+       344
+      ],
+      [
+       78,
+       354
+      ],
+      [
+       78,
+       377
+      ],
+      [
+       80,
+       371
+      ],
+      [
+       83,
+       375
+      ],
+      [
+       77,
+       383
+      ],
+      [
+       76,
+       404
+      ],
+      [
+       81,
+       399
+      ],
+      [
+       83,
+       404
+      ],
+      [
+       77,
+       411
+      ],
+      [
+       76,
+       429
+      ],
+      [
+       80,
+       425
+      ],
+      [
+       83,
+       428
+      ],
+      [
+       75,
+       451
+      ],
+      [
+       77,
+       455
+      ],
+      [
+       81,
+       449
+      ],
+      [
+       83,
+       452
+      ],
+      [
+       75,
+       477
+      ],
+      [
+       77,
+       482
+      ],
+      [
+       81,
+       475
+      ],
+      [
+       83,
+       478
+      ],
+      [
+       77,
+       494
+      ],
+      [
+       187,
+       496
+      ],
+      [
+       199,
+       451
+      ],
+      [
+       165,
+       441
+      ],
+      [
+       160,
+       424
+      ],
+      [
+       136,
+       434
+      ],
+      [
+       106,
+       436
+      ],
+      [
+       134,
+       427
+      ],
+      [
+       136,
+       421
+      ],
+      [
+       138,
+       426
+      ],
+      [
+       160,
+       419
+      ],
+      [
+       155,
+       384
+      ]
+     ]
+    ],
+    "13": [
+     [
+      [
+       286,
+       344
+      ],
+      [
+       275,
+       332
+      ],
+      [
+       262,
+       325
+      ],
+      [
+       232,
+       357
+      ],
+      [
+       232,
+       351
+      ],
+      [
+       257,
+       323
+      ],
+      [
+       215,
+       302
+      ],
+      [
+       205,
+       308
+      ],
+      [
+       170,
+       318
+      ],
+      [
+       166,
+       370
+      ],
+      [
+       171,
+       417
+      ],
+      [
+       299,
+       380
+      ],
+      [
+       294,
+       359
+      ]
+     ]
+    ],
+    "14": [
+     [
+      [
+       298,
+       431
+      ],
+      [
+       234,
+       432
+      ],
+      [
+       223,
+       484
+      ],
+      [
+       252,
+       615
+      ],
+      [
+       264,
+       615
+      ],
+      [
+       265,
+       611
+      ],
+      [
+       267,
+       628
+      ],
+      [
+       269,
+       614
+      ],
+      [
+       289,
+       613
+      ],
+      [
+       295,
+       608
+      ],
+      [
+       296,
+       613
+      ],
+      [
+       318,
+       606
+      ],
+      [
+       311,
+       583
+      ],
+      [
+       311,
+       527
+      ],
+      [
+       306,
+       486
+      ],
+      [
+       273,
+       507
+      ],
+      [
+       270,
+       505
+      ],
+      [
+       305,
+       482
+      ],
+      [
+       297,
+       447
+      ]
+     ]
+    ],
+    "15": [
+     [
+      [
+       744,
+       356
+      ],
+      [
+       718,
+       332
+      ],
+      [
+       681,
+       342
+      ],
+      [
+       692,
+       374
+      ],
+      [
+       690,
+       378
+      ],
+      [
+       675,
+       343
+      ],
+      [
+       663,
+       349
+      ],
+      [
+       647,
+       368
+      ],
+      [
+       635,
+       392
+      ],
+      [
+       630,
+       416
+      ],
+      [
+       632,
+       437
+      ],
+      [
+       707,
+       445
+      ],
+      [
+       694,
+       428
+      ],
+      [
+       686,
+       433
+      ],
+      [
+       682,
+       431
+      ],
+      [
+       704,
+       416
+      ],
+      [
+       706,
+       418
+      ],
+      [
+       697,
+       427
+      ],
+      [
+       710,
+       443
+      ],
+      [
+       740,
+       415
+      ],
+      [
+       749,
+       399
+      ],
+      [
+       751,
+       371
+      ],
+      [
+       746,
+       359
+      ],
+      [
+       740,
+       368
+      ],
+      [
+       738,
+       366
+      ]
+     ]
+    ],
+    "16": [
+     [
+      [
+       633,
+       450
+      ],
+      [
+       633,
+       465
+      ],
+      [
+       619,
+       507
+      ],
+      [
+       613,
+       542
+      ],
+      [
+       644,
+       537
+      ],
+      [
+       650,
+       539
+      ],
+      [
+       612,
+       547
+      ],
+      [
+       611,
+       583
+      ],
+      [
+       606,
+       604
+      ],
+      [
+       612,
+       607
+      ],
+      [
+       614,
+       600
+      ],
+      [
+       618,
+       611
+      ],
+      [
+       660,
+       622
+      ],
+      [
+       689,
+       524
+      ],
+      [
+       696,
+       458
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "catNum": 3,
+   "img": "images/forearm_hand_map.webp",
+   "width": 596,
+   "height": 1024,
+   "regions": {
+    "19": [
+     [
+      [
+       261,
+       45
+      ],
+      [
+       261,
+       51
+      ],
+      [
+       262,
+       52
+      ],
+      [
+       261,
+       53
+      ],
+      [
+       261,
+       56
+      ],
+      [
+       259,
+       59
+      ],
+      [
+       260,
+       60
+      ],
+      [
+       259,
+       61
+      ],
+      [
+       258,
+       67
+      ],
+      [
+       255,
+       71
+      ],
+      [
+       256,
+       73
+      ],
+      [
+       254,
+       77
+      ],
+      [
+       255,
+       79
+      ],
+      [
+       253,
+       84
+      ],
+      [
+       254,
+       85
+      ],
+      [
+       254,
+       89
+      ],
+      [
+       256,
+       92
+      ],
+      [
+       255,
+       94
+      ],
+      [
+       256,
+       95
+      ],
+      [
+       256,
+       102
+      ],
+      [
+       257,
+       103
+      ],
+      [
+       256,
+       104
+      ],
+      [
+       267,
+       106
+      ],
+      [
+       269,
+       104
+      ],
+      [
+       269,
+       101
+      ],
+      [
+       270,
+       100
+      ],
+      [
+       270,
+       90
+      ],
+      [
+       271,
+       89
+      ],
+      [
+       271,
+       84
+      ],
+      [
+       272,
+       83
+      ],
+      [
+       273,
+       75
+      ],
+      [
+       274,
+       74
+      ],
+      [
+       275,
+       56
+      ],
+      [
+       271,
+       53
+      ],
+      [
+       263,
+       52
+      ],
+      [
+       261,
+       50
+      ]
+     ],
+     [
+      [
+       326,
+       545
+      ],
+      [
+       325,
+       552
+      ],
+      [
+       323,
+       554
+      ],
+      [
+       325,
+       557
+      ],
+      [
+       324,
+       570
+      ],
+      [
+       325,
+       571
+      ],
+      [
+       325,
+       580
+      ],
+      [
+       326,
+       581
+      ],
+      [
+       326,
+       587
+      ],
+      [
+       327,
+       588
+      ],
+      [
+       328,
+       595
+      ],
+      [
+       329,
+       596
+      ],
+      [
+       348,
+       595
+      ],
+      [
+       347,
+       594
+      ],
+      [
+       347,
+       587
+      ],
+      [
+       346,
+       586
+      ],
+      [
+       346,
+       584
+      ],
+      [
+       349,
+       581
+      ],
+      [
+       349,
+       572
+      ],
+      [
+       347,
+       570
+      ],
+      [
+       350,
+       567
+      ],
+      [
+       348,
+       565
+      ],
+      [
+       348,
+       563
+      ],
+      [
+       343,
+       556
+      ],
+      [
+       341,
+       551
+      ],
+      [
+       340,
+       550
+      ],
+      [
+       339,
+       551
+      ],
+      [
+       337,
+       549
+      ],
+      [
+       339,
+       547
+      ],
+      [
+       337,
+       544
+      ],
+      [
+       335,
+       544
+      ],
+      [
+       334,
+       545
+      ]
+     ]
+    ],
+    "20": [
+     [
+      [
+       280,
+       55
+      ],
+      [
+       279,
+       60
+      ],
+      [
+       281,
+       63
+      ],
+      [
+       280,
+       70
+      ],
+      [
+       278,
+       72
+      ],
+      [
+       280,
+       74
+      ],
+      [
+       279,
+       78
+      ],
+      [
+       281,
+       80
+      ],
+      [
+       278,
+       83
+      ],
+      [
+       278,
+       85
+      ],
+      [
+       275,
+       87
+      ],
+      [
+       277,
+       90
+      ],
+      [
+       277,
+       93
+      ],
+      [
+       275,
+       95
+      ],
+      [
+       276,
+       97
+      ],
+      [
+       275,
+       100
+      ],
+      [
+       276,
+       105
+      ],
+      [
+       275,
+       106
+      ],
+      [
+       288,
+       108
+      ],
+      [
+       322,
+       106
+      ],
+      [
+       322,
+       103
+      ],
+      [
+       324,
+       101
+      ],
+      [
+       322,
+       99
+      ],
+      [
+       323,
+       98
+      ],
+      [
+       321,
+       94
+      ],
+      [
+       321,
+       82
+      ],
+      [
+       320,
+       79
+      ],
+      [
+       318,
+       80
+      ],
+      [
+       316,
+       78
+      ],
+      [
+       320,
+       75
+      ],
+      [
+       319,
+       55
+      ],
+      [
+       318,
+       54
+      ],
+      [
+       317,
+       55
+      ],
+      [
+       316,
+       54
+      ],
+      [
+       311,
+       55
+      ],
+      [
+       282,
+       54
+      ]
+     ]
+    ],
+    "17": [
+     [
+      [
+       341,
+       68
+      ],
+      [
+       339,
+       68
+      ],
+      [
+       335,
+       70
+      ],
+      [
+       333,
+       72
+      ],
+      [
+       326,
+       75
+      ],
+      [
+       327,
+       76
+      ],
+      [
+       327,
+       86
+      ],
+      [
+       328,
+       87
+      ],
+      [
+       329,
+       103
+      ],
+      [
+       330,
+       102
+      ],
+      [
+       332,
+       104
+      ],
+      [
+       335,
+       104
+      ],
+      [
+       336,
+       103
+      ],
+      [
+       342,
+       103
+      ],
+      [
+       343,
+       102
+      ],
+      [
+       348,
+       102
+      ],
+      [
+       347,
+       101
+      ],
+      [
+       348,
+       98
+      ],
+      [
+       346,
+       94
+      ],
+      [
+       345,
+       87
+      ],
+      [
+       341,
+       85
+      ],
+      [
+       335,
+       85
+      ],
+      [
+       333,
+       83
+      ],
+      [
+       333,
+       80
+      ],
+      [
+       335,
+       78
+      ],
+      [
+       337,
+       78
+      ],
+      [
+       343,
+       83
+      ],
+      [
+       345,
+       82
+      ],
+      [
+       342,
+       76
+      ],
+      [
+       342,
+       74
+      ],
+      [
+       343,
+       73
+      ],
+      [
+       341,
+       71
+      ],
+      [
+       342,
+       70
+      ]
+     ],
+     [
+      [
+       265,
+       544
+      ],
+      [
+       266,
+       546
+      ],
+      [
+       265,
+       547
+      ],
+      [
+       265,
+       551
+      ],
+      [
+       263,
+       553
+      ],
+      [
+       264,
+       554
+      ],
+      [
+       263,
+       559
+      ],
+      [
+       264,
+       558
+      ],
+      [
+       266,
+       560
+      ],
+      [
+       264,
+       562
+      ],
+      [
+       263,
+       561
+      ],
+      [
+       262,
+       562
+      ],
+      [
+       261,
+       567
+      ],
+      [
+       259,
+       569
+      ],
+      [
+       260,
+       571
+      ],
+      [
+       258,
+       573
+      ],
+      [
+       259,
+       575
+      ],
+      [
+       257,
+       577
+      ],
+      [
+       258,
+       580
+      ],
+      [
+       256,
+       582
+      ],
+      [
+       257,
+       585
+      ],
+      [
+       255,
+       589
+      ],
+      [
+       256,
+       590
+      ],
+      [
+       256,
+       593
+      ],
+      [
+       253,
+       595
+      ],
+      [
+       259,
+       595
+      ],
+      [
+       260,
+       594
+      ],
+      [
+       262,
+       596
+      ],
+      [
+       273,
+       596
+      ],
+      [
+       276,
+       597
+      ],
+      [
+       278,
+       591
+      ],
+      [
+       278,
+       586
+      ],
+      [
+       277,
+       584
+      ],
+      [
+       279,
+       582
+      ],
+      [
+       279,
+       572
+      ],
+      [
+       278,
+       571
+      ],
+      [
+       279,
+       569
+      ],
+      [
+       279,
+       564
+      ],
+      [
+       280,
+       563
+      ],
+      [
+       279,
+       562
+      ],
+      [
+       280,
+       561
+      ],
+      [
+       279,
+       560
+      ],
+      [
+       279,
+       546
+      ],
+      [
+       278,
+       545
+      ],
+      [
+       271,
+       545
+      ],
+      [
+       270,
+       546
+      ],
+      [
+       268,
+       544
+      ]
+     ]
+    ],
+    "21": [
+     [
+      [
+       256,
+       111
+      ],
+      [
+       254,
+       117
+      ],
+      [
+       251,
+       118
+      ],
+      [
+       251,
+       126
+      ],
+      [
+       254,
+       127
+      ],
+      [
+       251,
+       149
+      ],
+      [
+       255,
+       154
+      ],
+      [
+       254,
+       178
+      ],
+      [
+       258,
+       182
+      ],
+      [
+       262,
+       180
+      ],
+      [
+       267,
+       182
+      ],
+      [
+       264,
+       187
+      ],
+      [
+       260,
+       185
+      ],
+      [
+       258,
+       191
+      ],
+      [
+       263,
+       224
+      ],
+      [
+       269,
+       227
+      ],
+      [
+       265,
+       230
+      ],
+      [
+       270,
+       258
+      ],
+      [
+       267,
+       262
+      ],
+      [
+       271,
+       267
+      ],
+      [
+       270,
+       280
+      ],
+      [
+       274,
+       292
+      ],
+      [
+       283,
+       285
+      ],
+      [
+       277,
+       225
+      ],
+      [
+       273,
+       227
+      ],
+      [
+       271,
+       225
+      ],
+      [
+       276,
+       222
+      ],
+      [
+       270,
+       177
+      ],
+      [
+       269,
+       115
+      ]
+     ],
+     [
+      [
+       348,
+       600
+      ],
+      [
+       329,
+       602
+      ],
+      [
+       334,
+       624
+      ],
+      [
+       334,
+       687
+      ],
+      [
+       339,
+       685
+      ],
+      [
+       342,
+       688
+      ],
+      [
+       337,
+       692
+      ],
+      [
+       333,
+       691
+      ],
+      [
+       334,
+       701
+      ],
+      [
+       321,
+       770
+      ],
+      [
+       334,
+       777
+      ],
+      [
+       342,
+       747
+      ],
+      [
+       346,
+       712
+      ],
+      [
+       350,
+       711
+      ],
+      [
+       347,
+       705
+      ],
+      [
+       351,
+       661
+      ],
+      [
+       354,
+       660
+      ],
+      [
+       351,
+       656
+      ],
+      [
+       351,
+       636
+      ],
+      [
+       354,
+       635
+      ],
+      [
+       354,
+       631
+      ],
+      [
+       351,
+       630
+      ]
+     ]
+    ],
+    "22": [
+     [
+      [
+       322,
+       115
+      ],
+      [
+       312,
+       117
+      ],
+      [
+       276,
+       116
+      ],
+      [
+       276,
+       173
+      ],
+      [
+       281,
+       220
+      ],
+      [
+       285,
+       221
+      ],
+      [
+       282,
+       224
+      ],
+      [
+       289,
+       281
+      ],
+      [
+       315,
+       277
+      ],
+      [
+       322,
+       194
+      ],
+      [
+       321,
+       174
+      ],
+      [
+       323,
+       172
+      ]
+     ]
+    ],
+    "23": [
+     [
+      [
+       348,
+       110
+      ],
+      [
+       330,
+       114
+      ],
+      [
+       331,
+       168
+      ],
+      [
+       329,
+       170
+      ],
+      [
+       326,
+       245
+      ],
+      [
+       322,
+       277
+      ],
+      [
+       332,
+       282
+      ],
+      [
+       335,
+       278
+      ],
+      [
+       337,
+       250
+      ],
+      [
+       341,
+       249
+      ],
+      [
+       338,
+       244
+      ],
+      [
+       341,
+       225
+      ],
+      [
+       344,
+       224
+      ],
+      [
+       341,
+       221
+      ],
+      [
+       342,
+       209
+      ],
+      [
+       347,
+       197
+      ],
+      [
+       344,
+       194
+      ],
+      [
+       334,
+       196
+      ],
+      [
+       330,
+       192
+      ],
+      [
+       333,
+       189
+      ],
+      [
+       345,
+       190
+      ],
+      [
+       346,
+       171
+      ],
+      [
+       350,
+       168
+      ],
+      [
+       350,
+       164
+      ],
+      [
+       347,
+       163
+      ]
+     ],
+     [
+      [
+       255,
+       600
+      ],
+      [
+       256,
+       662
+      ],
+      [
+       268,
+       660
+      ],
+      [
+       271,
+       663
+      ],
+      [
+       269,
+       667
+      ],
+      [
+       257,
+       666
+      ],
+      [
+       260,
+       700
+      ],
+      [
+       262,
+       709
+      ],
+      [
+       266,
+       713
+      ],
+      [
+       261,
+       722
+      ],
+      [
+       265,
+       723
+      ],
+      [
+       270,
+       754
+      ],
+      [
+       267,
+       757
+      ],
+      [
+       271,
+       758
+      ],
+      [
+       270,
+       776
+      ],
+      [
+       272,
+       773
+      ],
+      [
+       274,
+       776
+      ],
+      [
+       285,
+       770
+      ],
+      [
+       278,
+       713
+      ],
+      [
+       272,
+       710
+      ],
+      [
+       277,
+       707
+      ],
+      [
+       273,
+       662
+      ],
+      [
+       276,
+       601
+      ]
+     ]
+    ],
+    "25": [
+     [
+      [
+       300,
+       285
+      ],
+      [
+       287,
+       290
+      ],
+      [
+       276,
+       298
+      ],
+      [
+       278,
+       312
+      ],
+      [
+       272,
+       326
+      ],
+      [
+       271,
+       337
+      ],
+      [
+       267,
+       338
+      ],
+      [
+       270,
+       341
+      ],
+      [
+       268,
+       347
+      ],
+      [
+       270,
+       365
+      ],
+      [
+       266,
+       367
+      ],
+      [
+       269,
+       378
+      ],
+      [
+       267,
+       385
+      ],
+      [
+       264,
+       386
+      ],
+      [
+       264,
+       393
+      ],
+      [
+       267,
+       394
+      ],
+      [
+       269,
+       400
+      ],
+      [
+       279,
+       404
+      ],
+      [
+       296,
+       407
+      ],
+      [
+       326,
+       407
+      ],
+      [
+       339,
+       315
+      ],
+      [
+       333,
+       301
+      ],
+      [
+       334,
+       286
+      ],
+      [
+       331,
+       288
+      ],
+      [
+       318,
+       284
+      ]
+     ]
+    ],
+    "27": [
+     [
+      [
+       346,
+       319
+      ],
+      [
+       344,
+       322
+      ],
+      [
+       342,
+       350
+      ],
+      [
+       334,
+       403
+      ],
+      [
+       337,
+       406
+      ],
+      [
+       350,
+       405
+      ],
+      [
+       350,
+       380
+      ],
+      [
+       353,
+       376
+      ],
+      [
+       363,
+       385
+      ],
+      [
+       367,
+       393
+      ],
+      [
+       368,
+       405
+      ],
+      [
+       374,
+       413
+      ],
+      [
+       383,
+       420
+      ],
+      [
+       390,
+       419
+      ],
+      [
+       391,
+       415
+      ],
+      [
+       386,
+       405
+      ],
+      [
+       386,
+       396
+      ],
+      [
+       380,
+       383
+      ],
+      [
+       378,
+       371
+      ],
+      [
+       370,
+       362
+      ],
+      [
+       366,
+       348
+      ],
+      [
+       355,
+       327
+      ]
+     ],
+     [
+      [
+       269,
+       813
+      ],
+      [
+       265,
+       812
+      ],
+      [
+       252,
+       825
+      ],
+      [
+       243,
+       846
+      ],
+      [
+       231,
+       864
+      ],
+      [
+       228,
+       878
+      ],
+      [
+       223,
+       886
+      ],
+      [
+       222,
+       900
+      ],
+      [
+       224,
+       907
+      ],
+      [
+       220,
+       909
+      ],
+      [
+       219,
+       916
+      ],
+      [
+       221,
+       919
+      ],
+      [
+       229,
+       917
+      ],
+      [
+       236,
+       911
+      ],
+      [
+       243,
+       895
+      ],
+      [
+       246,
+       894
+      ],
+      [
+       244,
+       884
+      ],
+      [
+       252,
+       877
+      ],
+      [
+       259,
+       877
+      ],
+      [
+       263,
+       881
+      ],
+      [
+       260,
+       887
+      ],
+      [
+       263,
+       891
+      ],
+      [
+       259,
+       896
+      ],
+      [
+       262,
+       915
+      ],
+      [
+       270,
+       916
+      ],
+      [
+       284,
+       913
+      ],
+      [
+       285,
+       888
+      ],
+      [
+       282,
+       887
+      ],
+      [
+       285,
+       885
+      ],
+      [
+       285,
+       850
+      ],
+      [
+       278,
+       823
+      ]
+     ]
+    ],
+    "29": [
+     [
+      [
+       270,
+       406
+      ],
+      [
+       261,
+       439
+      ],
+      [
+       264,
+       460
+      ],
+      [
+       272,
+       453
+      ],
+      [
+       284,
+       412
+      ],
+      [
+       284,
+       457
+      ],
+      [
+       288,
+       453
+      ],
+      [
+       293,
+       457
+      ],
+      [
+       284,
+       461
+      ],
+      [
+       280,
+       472
+      ],
+      [
+       286,
+       481
+      ],
+      [
+       293,
+       477
+      ],
+      [
+       305,
+       417
+      ],
+      [
+       309,
+       428
+      ],
+      [
+       304,
+       438
+      ],
+      [
+       308,
+       446
+      ],
+      [
+       304,
+       466
+      ],
+      [
+       307,
+       487
+      ],
+      [
+       315,
+       492
+      ],
+      [
+       325,
+       460
+      ],
+      [
+       323,
+       431
+      ],
+      [
+       328,
+       417
+      ],
+      [
+       332,
+       424
+      ],
+      [
+       332,
+       476
+      ],
+      [
+       340,
+       486
+      ],
+      [
+       346,
+       476
+      ],
+      [
+       346,
+       450
+      ],
+      [
+       350,
+       445
+      ],
+      [
+       348,
+       411
+      ],
+      [
+       304,
+       414
+      ]
+     ]
+    ],
+    "18": [
+     [
+      [
+       284,
+       546
+      ],
+      [
+       285,
+       550
+      ],
+      [
+       283,
+       553
+      ],
+      [
+       286,
+       555
+      ],
+      [
+       285,
+       557
+      ],
+      [
+       288,
+       561
+      ],
+      [
+       287,
+       562
+      ],
+      [
+       289,
+       566
+      ],
+      [
+       285,
+       569
+      ],
+      [
+       286,
+       570
+      ],
+      [
+       285,
+       571
+      ],
+      [
+       285,
+       579
+      ],
+      [
+       286,
+       580
+      ],
+      [
+       284,
+       582
+      ],
+      [
+       283,
+       596
+      ],
+      [
+       284,
+       597
+      ],
+      [
+       321,
+       597
+      ],
+      [
+       320,
+       587
+      ],
+      [
+       318,
+       585
+      ],
+      [
+       319,
+       583
+      ],
+      [
+       319,
+       558
+      ],
+      [
+       316,
+       560
+      ],
+      [
+       313,
+       558
+      ],
+      [
+       317,
+       555
+      ],
+      [
+       319,
+       556
+      ],
+      [
+       320,
+       555
+      ],
+      [
+       319,
+       554
+      ],
+      [
+       319,
+       547
+      ],
+      [
+       317,
+       546
+      ],
+      [
+       287,
+       546
+      ],
+      [
+       285,
+       547
+      ]
+     ]
+    ],
+    "24": [
+     [
+      [
+       285,
+       602
+      ],
+      [
+       281,
+       608
+      ],
+      [
+       280,
+       672
+      ],
+      [
+       281,
+       695
+      ],
+      [
+       283,
+       697
+      ],
+      [
+       281,
+       706
+      ],
+      [
+       285,
+       707
+      ],
+      [
+       282,
+       709
+      ],
+      [
+       290,
+       769
+      ],
+      [
+       317,
+       768
+      ],
+      [
+       318,
+       753
+      ],
+      [
+       322,
+       743
+      ],
+      [
+       329,
+       690
+      ],
+      [
+       328,
+       625
+      ],
+      [
+       323,
+       602
+      ]
+     ]
+    ],
+    "26": [
+     [
+      [
+       311,
+       774
+      ],
+      [
+       292,
+       774
+      ],
+      [
+       282,
+       777
+      ],
+      [
+       273,
+       783
+      ],
+      [
+       274,
+       792
+      ],
+      [
+       271,
+       793
+      ],
+      [
+       274,
+       798
+      ],
+      [
+       270,
+       807
+      ],
+      [
+       283,
+       820
+      ],
+      [
+       290,
+       846
+      ],
+      [
+       290,
+       911
+      ],
+      [
+       292,
+       912
+      ],
+      [
+       335,
+       904
+      ],
+      [
+       347,
+       898
+      ],
+      [
+       351,
+       882
+      ],
+      [
+       347,
+       866
+      ],
+      [
+       349,
+       847
+      ],
+      [
+       345,
+       829
+      ],
+      [
+       340,
+       818
+      ],
+      [
+       332,
+       811
+      ],
+      [
+       335,
+       810
+      ],
+      [
+       337,
+       804
+      ],
+      [
+       334,
+       786
+      ],
+      [
+       336,
+       784
+      ]
+     ]
+    ],
+    "28": [
+     [
+      [
+       347,
+       905
+      ],
+      [
+       323,
+       914
+      ],
+      [
+       261,
+       925
+      ],
+      [
+       261,
+       956
+      ],
+      [
+       270,
+       990
+      ],
+      [
+       278,
+       979
+      ],
+      [
+       278,
+       948
+      ],
+      [
+       285,
+       923
+      ],
+      [
+       289,
+       929
+      ],
+      [
+       289,
+       983
+      ],
+      [
+       293,
+       994
+      ],
+      [
+       299,
+       994
+      ],
+      [
+       304,
+       983
+      ],
+      [
+       308,
+       955
+      ],
+      [
+       305,
+       927
+      ],
+      [
+       309,
+       919
+      ],
+      [
+       314,
+       925
+      ],
+      [
+       311,
+       930
+      ],
+      [
+       318,
+       983
+      ],
+      [
+       325,
+       985
+      ],
+      [
+       329,
+       977
+      ],
+      [
+       330,
+       956
+      ],
+      [
+       323,
+       957
+      ],
+      [
+       320,
+       952
+      ],
+      [
+       330,
+       952
+      ],
+      [
+       329,
+       921
+      ],
+      [
+       333,
+       912
+      ],
+      [
+       339,
+       924
+      ],
+      [
+       342,
+       954
+      ],
+      [
+       346,
+       956
+      ],
+      [
+       342,
+       961
+      ],
+      [
+       350,
+       968
+      ],
+      [
+       354,
+       929
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "catNum": 4,
+   "img": "images/trunk_map.webp",
+   "width": 1024,
+   "height": 851,
+   "regions": {
+    "30": [
+     [
+      [
+       896,
+       274
+      ],
+      [
+       879,
+       290
+      ],
+      [
+       824,
+       313
+      ],
+      [
+       829,
+       318
+      ],
+      [
+       820,
+       317
+      ],
+      [
+       848,
+       340
+      ],
+      [
+       852,
+       377
+      ],
+      [
+       843,
+       401
+      ],
+      [
+       856,
+       411
+      ],
+      [
+       842,
+       406
+      ],
+      [
+       818,
+       437
+      ],
+      [
+       845,
+       468
+      ],
+      [
+       858,
+       506
+      ],
+      [
+       853,
+       567
+      ],
+      [
+       825,
+       595
+      ],
+      [
+       840,
+       613
+      ],
+      [
+       862,
+       593
+      ],
+      [
+       931,
+       481
+      ],
+      [
+       944,
+       479
+      ],
+      [
+       943,
+       295
+      ],
+      [
+       913,
+       286
+      ]
+     ]
+    ],
+    "31": [
+     [
+      [
+       794,
+       452
+      ],
+      [
+       793,
+       455
+      ],
+      [
+       813,
+       474
+      ],
+      [
+       832,
+       484
+      ],
+      [
+       829,
+       486
+      ],
+      [
+       816,
+       480
+      ],
+      [
+       792,
+       459
+      ],
+      [
+       797,
+       504
+      ],
+      [
+       813,
+       509
+      ],
+      [
+       811,
+       512
+      ],
+      [
+       800,
+       509
+      ],
+      [
+       798,
+       511
+      ],
+      [
+       808,
+       551
+      ],
+      [
+       820,
+       584
+      ],
+      [
+       836,
+       571
+      ],
+      [
+       842,
+       560
+      ],
+      [
+       846,
+       542
+      ],
+      [
+       846,
+       510
+      ],
+      [
+       841,
+       489
+      ],
+      [
+       831,
+       485
+      ],
+      [
+       839,
+       484
+      ],
+      [
+       833,
+       472
+      ],
+      [
+       809,
+       446
+      ]
+     ]
+    ],
+    "32": [
+     [
+      [
+       66,
+       286
+      ],
+      [
+       66,
+       300
+      ],
+      [
+       70,
+       299
+      ],
+      [
+       65,
+       304
+      ],
+      [
+       65,
+       319
+      ],
+      [
+       70,
+       319
+      ],
+      [
+       65,
+       326
+      ],
+      [
+       65,
+       344
+      ],
+      [
+       70,
+       342
+      ],
+      [
+       66,
+       370
+      ],
+      [
+       70,
+       369
+      ],
+      [
+       63,
+       398
+      ],
+      [
+       70,
+       398
+      ],
+      [
+       66,
+       424
+      ],
+      [
+       62,
+       425
+      ],
+      [
+       70,
+       426
+      ],
+      [
+       63,
+       452
+      ],
+      [
+       66,
+       455
+      ],
+      [
+       71,
+       451
+      ],
+      [
+       64,
+       479
+      ],
+      [
+       68,
+       477
+      ],
+      [
+       69,
+       483
+      ],
+      [
+       161,
+       484
+      ],
+      [
+       178,
+       459
+      ],
+      [
+       173,
+       452
+      ],
+      [
+       158,
+       467
+      ],
+      [
+       147,
+       470
+      ],
+      [
+       131,
+       450
+      ],
+      [
+       125,
+       420
+      ],
+      [
+       126,
+       394
+      ],
+      [
+       122,
+       390
+      ],
+      [
+       118,
+       357
+      ],
+      [
+       135,
+       315
+      ],
+      [
+       104,
+       294
+      ]
+     ]
+    ],
+    "35": [
+     [
+      [
+       186,
+       726
+      ],
+      [
+       184,
+       729
+      ],
+      [
+       110,
+       728
+      ],
+      [
+       100,
+       745
+      ],
+      [
+       98,
+       743
+      ],
+      [
+       104,
+       728
+      ],
+      [
+       65,
+       729
+      ],
+      [
+       63,
+       736
+      ],
+      [
+       65,
+       740
+      ],
+      [
+       68,
+       737
+      ],
+      [
+       70,
+       739
+      ],
+      [
+       65,
+       747
+      ],
+      [
+       66,
+       757
+      ],
+      [
+       70,
+       759
+      ],
+      [
+       65,
+       761
+      ],
+      [
+       66,
+       826
+      ],
+      [
+       199,
+       826
+      ],
+      [
+       193,
+       790
+      ],
+      [
+       192,
+       752
+      ]
+     ]
+    ],
+    "33": [
+     [
+      [
+       942,
+       494
+      ],
+      [
+       899,
+       555
+      ],
+      [
+       886,
+       584
+      ],
+      [
+       858,
+       619
+      ],
+      [
+       917,
+       645
+      ],
+      [
+       853,
+       622
+      ],
+      [
+       840,
+       629
+      ],
+      [
+       842,
+       673
+      ],
+      [
+       835,
+       709
+      ],
+      [
+       847,
+       729
+      ],
+      [
+       946,
+       729
+      ],
+      [
+       948,
+       670
+      ],
+      [
+       944,
+       680
+      ],
+      [
+       940,
+       674
+      ],
+      [
+       946,
+       667
+      ]
+     ]
+    ],
+    "33-1": [
+     [
+      [
+       848,
+       730
+      ],
+      [
+       906,
+       795
+      ],
+      [
+       909,
+       794
+      ],
+      [
+       914,
+       799
+      ],
+      [
+       915,
+       798
+      ],
+      [
+       931,
+       807
+      ],
+      [
+       947,
+       810
+      ],
+      [
+       946,
+       730
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "catNum": 5,
+   "img": "images/lower_trunk_map.webp",
+   "width": 1024,
+   "height": 935,
+   "regions": {
+    "34": [
+     [
+      [
+       727,
+       403
+      ],
+      [
+       713,
+       408
+      ],
+      [
+       697,
+       422
+      ],
+      [
+       689,
+       435
+      ],
+      [
+       695,
+       438
+      ],
+      [
+       693,
+       440
+      ],
+      [
+       687,
+       439
+      ],
+      [
+       682,
+       460
+      ],
+      [
+       706,
+       493
+      ],
+      [
+       726,
+       529
+      ],
+      [
+       725,
+       532
+      ],
+      [
+       733,
+       537
+      ],
+      [
+       738,
+       489
+      ],
+      [
+       729,
+       485
+      ],
+      [
+       731,
+       483
+      ],
+      [
+       738,
+       485
+      ],
+      [
+       740,
+       448
+      ],
+      [
+       712,
+       444
+      ],
+      [
+       706,
+       441
+      ],
+      [
+       711,
+       439
+      ],
+      [
+       733,
+       444
+      ],
+      [
+       739,
+       443
+      ],
+      [
+       736,
+       404
+      ]
+     ]
+    ],
+    "35": [
+     [
+      [
+       252,
+       270
+      ],
+      [
+       251,
+       284
+      ],
+      [
+       255,
+       279
+      ],
+      [
+       257,
+       285
+      ],
+      [
+       250,
+       301
+      ],
+      [
+       253,
+       304
+      ],
+      [
+       257,
+       297
+      ],
+      [
+       259,
+       301
+      ],
+      [
+       254,
+       309
+      ],
+      [
+       251,
+       307
+      ],
+      [
+       253,
+       324
+      ],
+      [
+       257,
+       318
+      ],
+      [
+       259,
+       322
+      ],
+      [
+       255,
+       328
+      ],
+      [
+       251,
+       327
+      ],
+      [
+       250,
+       338
+      ],
+      [
+       254,
+       341
+      ],
+      [
+       257,
+       336
+      ],
+      [
+       259,
+       341
+      ],
+      [
+       266,
+       343
+      ],
+      [
+       254,
+       348
+      ],
+      [
+       251,
+       346
+      ],
+      [
+       253,
+       361
+      ],
+      [
+       257,
+       356
+      ],
+      [
+       259,
+       358
+      ],
+      [
+       258,
+       364
+      ],
+      [
+       252,
+       366
+      ],
+      [
+       254,
+       384
+      ],
+      [
+       255,
+       379
+      ],
+      [
+       259,
+       379
+      ],
+      [
+       258,
+       388
+      ],
+      [
+       253,
+       390
+      ],
+      [
+       253,
+       406
+      ],
+      [
+       278,
+       400
+      ],
+      [
+       299,
+       376
+      ],
+      [
+       335,
+       369
+      ],
+      [
+       356,
+       375
+      ],
+      [
+       354,
+       329
+      ],
+      [
+       271,
+       272
+      ],
+      [
+       259,
+       267
+      ],
+      [
+       256,
+       272
+      ]
+     ]
+    ],
+    "36": [
+     [
+      [
+       264,
+       416
+      ],
+      [
+       244,
+       419
+      ],
+      [
+       244,
+       459
+      ],
+      [
+       245,
+       458
+      ],
+      [
+       248,
+       461
+      ],
+      [
+       245,
+       463
+      ],
+      [
+       245,
+       495
+      ],
+      [
+       247,
+       509
+      ],
+      [
+       255,
+       507
+      ],
+      [
+       262,
+       503
+      ],
+      [
+       270,
+       495
+      ],
+      [
+       278,
+       480
+      ],
+      [
+       287,
+       450
+      ],
+      [
+       286,
+       445
+      ]
+     ]
+    ],
+    "37": [
+     [
+      [
+       335,
+       380
+      ],
+      [
+       306,
+       387
+      ],
+      [
+       276,
+       414
+      ],
+      [
+       296,
+       443
+      ],
+      [
+       296,
+       452
+      ],
+      [
+       279,
+       500
+      ],
+      [
+       258,
+       515
+      ],
+      [
+       265,
+       527
+      ],
+      [
+       337,
+       464
+      ],
+      [
+       333,
+       472
+      ],
+      [
+       266,
+       531
+      ],
+      [
+       285,
+       547
+      ],
+      [
+       314,
+       557
+      ],
+      [
+       355,
+       547
+      ],
+      [
+       367,
+       533
+      ],
+      [
+       370,
+       521
+      ],
+      [
+       369,
+       499
+      ],
+      [
+       360,
+       469
+      ],
+      [
+       362,
+       452
+      ],
+      [
+       374,
+       442
+      ],
+      [
+       362,
+       391
+      ]
+     ],
+     [
+      [
+       614,
+       399
+      ],
+      [
+       612,
+       402
+      ],
+      [
+       613,
+       403
+      ],
+      [
+       613,
+       405
+      ],
+      [
+       611,
+       407
+      ],
+      [
+       612,
+       409
+      ],
+      [
+       610,
+       412
+      ],
+      [
+       610,
+       415
+      ],
+      [
+       608,
+       417
+      ],
+      [
+       609,
+       421
+      ],
+      [
+       607,
+       426
+      ],
+      [
+       607,
+       432
+      ],
+      [
+       605,
+       434
+      ],
+      [
+       606,
+       437
+      ],
+      [
+       604,
+       439
+      ],
+      [
+       605,
+       444
+      ],
+      [
+       620,
+       444
+      ],
+      [
+       645,
+       449
+      ],
+      [
+       647,
+       445
+      ],
+      [
+       646,
+       432
+      ],
+      [
+       640,
+       430
+      ],
+      [
+       625,
+       428
+      ],
+      [
+       623,
+       426
+      ],
+      [
+       625,
+       424
+      ],
+      [
+       643,
+       427
+      ],
+      [
+       644,
+       426
+      ],
+      [
+       639,
+       418
+      ],
+      [
+       621,
+       403
+      ]
+     ]
+    ],
+    "33-1": [
+     [
+      [
+       729,
+       359
+      ],
+      [
+       663,
+       362
+      ],
+      [
+       661,
+       360
+      ],
+      [
+       631,
+       359
+      ],
+      [
+       622,
+       392
+      ],
+      [
+       647,
+       416
+      ],
+      [
+       653,
+       429
+      ],
+      [
+       662,
+       432
+      ],
+      [
+       660,
+       434
+      ],
+      [
+       653,
+       433
+      ],
+      [
+       655,
+       452
+      ],
+      [
+       659,
+       450
+      ],
+      [
+       675,
+       456
+      ],
+      [
+       680,
+       438
+      ],
+      [
+       673,
+       435
+      ],
+      [
+       675,
+       433
+      ],
+      [
+       683,
+       435
+      ],
+      [
+       682,
+       431
+      ],
+      [
+       688,
+       420
+      ],
+      [
+       704,
+       404
+      ],
+      [
+       731,
+       394
+      ],
+      [
+       730,
+       384
+      ],
+      [
+       715,
+       384
+      ],
+      [
+       713,
+       382
+      ],
+      [
+       715,
+       380
+      ],
+      [
+       730,
+       380
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "catNum": 6,
+   "img": "images/hip_thigh_knee_map.webp",
+   "width": 1024,
+   "height": 716,
+   "regions": {
+    "38": [
+     [
+      [
+       451,
+       120
+      ],
+      [
+       442,
+       133
+      ],
+      [
+       442,
+       149
+      ],
+      [
+       451,
+       152
+      ],
+      [
+       435,
+       153
+      ],
+      [
+       443,
+       155
+      ],
+      [
+       444,
+       169
+      ],
+      [
+       437,
+       184
+      ],
+      [
+       435,
+       243
+      ],
+      [
+       426,
+       312
+      ],
+      [
+       439,
+       319
+      ],
+      [
+       450,
+       276
+      ],
+      [
+       454,
+       275
+      ],
+      [
+       451,
+       271
+      ],
+      [
+       456,
+       252
+      ],
+      [
+       458,
+       224
+      ],
+      [
+       462,
+       220
+      ],
+      [
+       459,
+       217
+      ],
+      [
+       460,
+       210
+      ],
+      [
+       463,
+       209
+      ],
+      [
+       460,
+       200
+      ],
+      [
+       461,
+       194
+      ],
+      [
+       464,
+       193
+      ],
+      [
+       464,
+       179
+      ],
+      [
+       461,
+       178
+      ],
+      [
+       460,
+       170
+      ],
+      [
+       463,
+       161
+      ],
+      [
+       459,
+       158
+      ],
+      [
+       456,
+       138
+      ],
+      [
+       459,
+       135
+      ],
+      [
+       455,
+       134
+      ]
+     ],
+     [
+      [
+       532,
+       117
+      ],
+      [
+       520,
+       122
+      ],
+      [
+       510,
+       172
+      ],
+      [
+       506,
+       174
+      ],
+      [
+       509,
+       179
+      ],
+      [
+       505,
+       184
+      ],
+      [
+       508,
+       192
+      ],
+      [
+       504,
+       200
+      ],
+      [
+       504,
+       211
+      ],
+      [
+       508,
+       219
+      ],
+      [
+       505,
+       229
+      ],
+      [
+       509,
+       235
+      ],
+      [
+       506,
+       243
+      ],
+      [
+       510,
+       245
+      ],
+      [
+       514,
+       275
+      ],
+      [
+       511,
+       279
+      ],
+      [
+       515,
+       280
+      ],
+      [
+       528,
+       335
+      ],
+      [
+       538,
+       331
+      ],
+      [
+       530,
+       217
+      ],
+      [
+       531,
+       183
+      ],
+      [
+       537,
+       154
+      ],
+      [
+       527,
+       152
+      ],
+      [
+       540,
+       151
+      ],
+      [
+       538,
+       146
+      ],
+      [
+       545,
+       122
+      ],
+      [
+       544,
+       119
+      ]
+     ]
+    ],
+    "45": [
+     [
+      [
+       590,
+       377
+      ],
+      [
+       589,
+       378
+      ],
+      [
+       587,
+       378
+      ],
+      [
+       587,
+       379
+      ],
+      [
+       585,
+       381
+      ],
+      [
+       586,
+       382
+      ],
+      [
+       585,
+       383
+      ],
+      [
+       585,
+       384
+      ],
+      [
+       583,
+       386
+      ],
+      [
+       582,
+       385
+      ],
+      [
+       582,
+       401
+      ],
+      [
+       583,
+       402
+      ],
+      [
+       583,
+       408
+      ],
+      [
+       584,
+       409
+      ],
+      [
+       584,
+       412
+      ],
+      [
+       586,
+       414
+      ],
+      [
+       590,
+       410
+      ],
+      [
+       590,
+       409
+      ],
+      [
+       592,
+       407
+      ],
+      [
+       591,
+       406
+      ],
+      [
+       591,
+       402
+      ],
+      [
+       590,
+       402
+      ],
+      [
+       588,
+       400
+      ],
+      [
+       590,
+       398
+      ],
+      [
+       591,
+       395
+      ],
+      [
+       590,
+       394
+      ],
+      [
+       590,
+       393
+      ],
+      [
+       587,
+       390
+      ],
+      [
+       588,
+       389
+      ],
+      [
+       588,
+       388
+      ],
+      [
+       592,
+       381
+      ],
+      [
+       592,
+       379
+      ],
+      [
+       593,
+       378
+      ],
+      [
+       591,
+       378
+      ]
+     ]
+    ],
+    "39": [
+     [
+      [
+       360,
+       174
+      ],
+      [
+       374,
+       195
+      ],
+      [
+       380,
+       213
+      ],
+      [
+       382,
+       234
+      ],
+      [
+       386,
+       238
+      ],
+      [
+       384,
+       240
+      ],
+      [
+       367,
+       240
+      ],
+      [
+       376,
+       247
+      ],
+      [
+       376,
+       241
+      ],
+      [
+       381,
+       239
+      ],
+      [
+       383,
+       241
+      ],
+      [
+       383,
+       253
+      ],
+      [
+       424,
+       288
+      ],
+      [
+       430,
+       226
+      ],
+      [
+       430,
+       186
+      ],
+      [
+       411,
+       190
+      ],
+      [
+       389,
+       189
+      ],
+      [
+       376,
+       184
+      ],
+      [
+       366,
+       175
+      ]
+     ]
+    ],
+    "40": [
+     [
+      [
+       383,
+       254
+      ],
+      [
+       383,
+       259
+      ],
+      [
+       384,
+       260
+      ],
+      [
+       383,
+       306
+      ],
+      [
+       384,
+       309
+      ],
+      [
+       385,
+       308
+      ],
+      [
+       386,
+       309
+      ],
+      [
+       408,
+       309
+      ],
+      [
+       409,
+       310
+      ],
+      [
+       421,
+       311
+      ],
+      [
+       422,
+       299
+      ],
+      [
+       423,
+       298
+      ],
+      [
+       423,
+       291
+      ],
+      [
+       424,
+       289
+      ]
+     ],
+     [
+      [
+       605,
+       250
+      ],
+      [
+       600,
+       251
+      ],
+      [
+       588,
+       261
+      ],
+      [
+       586,
+       260
+      ],
+      [
+       543,
+       288
+      ],
+      [
+       543,
+       321
+      ],
+      [
+       546,
+       328
+      ],
+      [
+       556,
+       326
+      ],
+      [
+       579,
+       328
+      ],
+      [
+       582,
+       326
+      ],
+      [
+       586,
+       268
+      ],
+      [
+       589,
+       265
+      ],
+      [
+       591,
+       268
+      ],
+      [
+       587,
+       328
+      ],
+      [
+       595,
+       335
+      ],
+      [
+       600,
+       321
+      ],
+      [
+       604,
+       319
+      ],
+      [
+       601,
+       314
+      ],
+      [
+       605,
+       309
+      ],
+      [
+       605,
+       297
+      ],
+      [
+       602,
+       296
+      ],
+      [
+       601,
+       288
+      ],
+      [
+       593,
+       286
+      ],
+      [
+       601,
+       284
+      ],
+      [
+       601,
+       281
+      ],
+      [
+       604,
+       280
+      ],
+      [
+       604,
+       276
+      ],
+      [
+       601,
+       275
+      ],
+      [
+       601,
+       263
+      ],
+      [
+       604,
+       262
+      ],
+      [
+       604,
+       258
+      ],
+      [
+       601,
+       257
+      ],
+      [
+       601,
+       254
+      ]
+     ]
+    ],
+    "44": [
+     [
+      [
+       367,
+       319
+      ],
+      [
+       368,
+       321
+      ],
+      [
+       366,
+       323
+      ],
+      [
+       365,
+       322
+      ],
+      [
+       365,
+       324
+      ],
+      [
+       366,
+       323
+      ],
+      [
+       368,
+       325
+      ],
+      [
+       368,
+       329
+      ],
+      [
+       366,
+       331
+      ],
+      [
+       365,
+       330
+      ],
+      [
+       365,
+       341
+      ],
+      [
+       397,
+       342
+      ],
+      [
+       399,
+       344
+      ],
+      [
+       397,
+       346
+      ],
+      [
+       375,
+       346
+      ],
+      [
+       398,
+       357
+      ],
+      [
+       400,
+       356
+      ],
+      [
+       402,
+       359
+      ],
+      [
+       416,
+       366
+      ],
+      [
+       415,
+       360
+      ],
+      [
+       413,
+       358
+      ],
+      [
+       415,
+       356
+      ],
+      [
+       415,
+       348
+      ],
+      [
+       420,
+       319
+      ],
+      [
+       409,
+       315
+      ],
+      [
+       395,
+       314
+      ],
+      [
+       384,
+       315
+      ],
+      [
+       370,
+       320
+      ]
+     ]
+    ],
+    "43": [
+     [
+      [
+       365,
+       346
+      ],
+      [
+       365,
+       353
+      ],
+      [
+       366,
+       352
+      ],
+      [
+       369,
+       355
+      ],
+      [
+       368,
+       358
+      ],
+      [
+       376,
+       377
+      ],
+      [
+       380,
+       378
+      ],
+      [
+       382,
+       376
+      ],
+      [
+       388,
+       380
+      ],
+      [
+       383,
+       382
+      ],
+      [
+       380,
+       394
+      ],
+      [
+       381,
+       397
+      ],
+      [
+       403,
+       404
+      ],
+      [
+       425,
+       402
+      ],
+      [
+       421,
+       383
+      ],
+      [
+       414,
+       380
+      ],
+      [
+       416,
+       378
+      ],
+      [
+       427,
+       378
+      ],
+      [
+       429,
+       380
+      ],
+      [
+       426,
+       383
+      ],
+      [
+       431,
+       399
+      ],
+      [
+       436,
+       399
+      ],
+      [
+       438,
+       396
+      ],
+      [
+       438,
+       385
+      ],
+      [
+       434,
+       375
+      ],
+      [
+       422,
+       369
+      ],
+      [
+       424,
+       377
+      ],
+      [
+       421,
+       379
+      ],
+      [
+       418,
+       376
+      ],
+      [
+       415,
+       366
+      ],
+      [
+       390,
+       354
+      ],
+      [
+       387,
+       355
+      ],
+      [
+       386,
+       352
+      ],
+      [
+       374,
+       346
+      ]
+     ],
+     [
+      [
+       529,
+       340
+      ],
+      [
+       529,
+       360
+      ],
+      [
+       532,
+       376
+      ],
+      [
+       529,
+       383
+      ],
+      [
+       530,
+       389
+      ],
+      [
+       526,
+       392
+      ],
+      [
+       529,
+       411
+      ],
+      [
+       537,
+       414
+      ],
+      [
+       542,
+       379
+      ],
+      [
+       539,
+       377
+      ],
+      [
+       541,
+       375
+      ],
+      [
+       559,
+       375
+      ],
+      [
+       561,
+       377
+      ],
+      [
+       559,
+       379
+      ],
+      [
+       546,
+       380
+      ],
+      [
+       543,
+       417
+      ],
+      [
+       561,
+       424
+      ],
+      [
+       578,
+       420
+      ],
+      [
+       577,
+       382
+      ],
+      [
+       545,
+       346
+      ],
+      [
+       549,
+       367
+      ],
+      [
+       544,
+       376
+      ],
+      [
+       542,
+       374
+      ],
+      [
+       540,
+       340
+      ],
+      [
+       537,
+       337
+      ]
+     ]
+    ],
+    "41": [
+     [
+      [
+       552,
+       122
+      ],
+      [
+       543,
+       150
+      ],
+      [
+       555,
+       152
+      ],
+      [
+       542,
+       155
+      ],
+      [
+       537,
+       188
+      ],
+      [
+       537,
+       230
+      ],
+      [
+       543,
+       287
+      ],
+      [
+       586,
+       259
+      ],
+      [
+       586,
+       239
+      ],
+      [
+       577,
+       237
+      ],
+      [
+       587,
+       236
+      ],
+      [
+       586,
+       228
+      ],
+      [
+       592,
+       204
+      ],
+      [
+       606,
+       181
+      ],
+      [
+       603,
+       172
+      ],
+      [
+       589,
+       152
+      ],
+      [
+       575,
+       151
+      ],
+      [
+       587,
+       149
+      ],
+      [
+       568,
+       131
+      ]
+     ]
+    ],
+    "42": [
+     [
+      [
+       549,
+       333
+      ],
+      [
+       545,
+       338
+      ],
+      [
+       545,
+       345
+      ],
+      [
+       572,
+       375
+      ],
+      [
+       573,
+       374
+      ],
+      [
+       580,
+       374
+      ],
+      [
+       581,
+       365
+      ],
+      [
+       582,
+       364
+      ],
+      [
+       581,
+       363
+      ],
+      [
+       581,
+       356
+      ],
+      [
+       583,
+       353
+      ],
+      [
+       583,
+       350
+      ],
+      [
+       584,
+       349
+      ],
+      [
+       584,
+       343
+      ],
+      [
+       583,
+       344
+      ],
+      [
+       577,
+       344
+      ],
+      [
+       575,
+       342
+      ],
+      [
+       577,
+       340
+      ],
+      [
+       584,
+       340
+      ],
+      [
+       582,
+       335
+      ],
+      [
+       579,
+       333
+      ],
+      [
+       576,
+       333
+      ],
+      [
+       575,
+       332
+      ],
+      [
+       555,
+       332
+      ],
+      [
+       554,
+       333
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "catNum": 7,
+   "img": "images/leg_ankle_foot_map.webp",
+   "width": 1024,
+   "height": 787,
+   "regions": {
+    "46": [
+     [
+      [
+       365,
+       85
+      ],
+      [
+       350,
+       90
+      ],
+      [
+       353,
+       116
+      ],
+      [
+       353,
+       137
+      ],
+      [
+       350,
+       166
+      ],
+      [
+       343,
+       196
+      ],
+      [
+       343,
+       201
+      ],
+      [
+       349,
+       204
+      ],
+      [
+       352,
+       204
+      ],
+      [
+       365,
+       153
+      ],
+      [
+       368,
+       130
+      ],
+      [
+       370,
+       128
+      ],
+      [
+       369,
+       112
+      ],
+      [
+       367,
+       110
+      ],
+      [
+       370,
+       107
+      ],
+      [
+       368,
+       104
+      ],
+      [
+       369,
+       99
+      ]
+     ],
+     [
+      [
+       501,
+       499
+      ],
+      [
+       495,
+       523
+      ],
+      [
+       494,
+       546
+      ],
+      [
+       500,
+       595
+      ],
+      [
+       503,
+       649
+      ],
+      [
+       522,
+       651
+      ],
+      [
+       531,
+       573
+      ],
+      [
+       532,
+       526
+      ],
+      [
+       522,
+       526
+      ],
+      [
+       520,
+       524
+      ],
+      [
+       522,
+       522
+      ],
+      [
+       531,
+       522
+      ],
+      [
+       532,
+       504
+      ],
+      [
+       515,
+       503
+      ]
+     ]
+    ],
+    "47": [
+     [
+      [
+       708,
+       106
+      ],
+      [
+       707,
+       135
+      ],
+      [
+       722,
+       208
+      ],
+      [
+       724,
+       233
+      ],
+      [
+       748,
+       235
+      ],
+      [
+       751,
+       196
+      ],
+      [
+       757,
+       167
+      ],
+      [
+       759,
+       165
+      ],
+      [
+       757,
+       130
+      ],
+      [
+       752,
+       128
+      ],
+      [
+       756,
+       126
+      ],
+      [
+       750,
+       106
+      ],
+      [
+       735,
+       111
+      ],
+      [
+       725,
+       111
+      ]
+     ],
+     [
+      [
+       550,
+       498
+      ],
+      [
+       538,
+       504
+      ],
+      [
+       539,
+       521
+      ],
+      [
+       542,
+       524
+      ],
+      [
+       539,
+       526
+      ],
+      [
+       539,
+       553
+      ],
+      [
+       529,
+       650
+      ],
+      [
+       541,
+       647
+      ],
+      [
+       544,
+       617
+      ],
+      [
+       550,
+       590
+      ],
+      [
+       552,
+       564
+      ],
+      [
+       546,
+       562
+      ],
+      [
+       553,
+       560
+      ],
+      [
+       554,
+       557
+      ]
+     ]
+    ],
+    "48": [
+     [
+      [
+       312,
+       82
+      ],
+      [
+       307,
+       96
+      ],
+      [
+       307,
+       100
+      ],
+      [
+       310,
+       102
+      ],
+      [
+       306,
+       104
+      ],
+      [
+       303,
+       134
+      ],
+      [
+       305,
+       136
+      ],
+      [
+       309,
+       159
+      ],
+      [
+       315,
+       170
+      ],
+      [
+       314,
+       199
+      ],
+      [
+       336,
+       199
+      ],
+      [
+       341,
+       183
+      ],
+      [
+       345,
+       154
+      ],
+      [
+       346,
+       111
+      ],
+      [
+       343,
+       91
+      ],
+      [
+       331,
+       90
+      ]
+     ],
+     [
+      [
+       486,
+       490
+      ],
+      [
+       476,
+       513
+      ],
+      [
+       476,
+       519
+      ],
+      [
+       482,
+       521
+      ],
+      [
+       480,
+       523
+      ],
+      [
+       474,
+       523
+      ],
+      [
+       472,
+       547
+      ],
+      [
+       478,
+       584
+      ],
+      [
+       483,
+       599
+      ],
+      [
+       490,
+       610
+      ],
+      [
+       487,
+       618
+      ],
+      [
+       489,
+       620
+      ],
+      [
+       488,
+       627
+      ],
+      [
+       490,
+       629
+      ],
+      [
+       489,
+       637
+      ],
+      [
+       491,
+       639
+      ],
+      [
+       491,
+       646
+      ],
+      [
+       497,
+       647
+      ],
+      [
+       494,
+       597
+      ],
+      [
+       488,
+       558
+      ],
+      [
+       488,
+       525
+      ],
+      [
+       494,
+       495
+      ]
+     ]
+    ],
+    "50": [
+     [
+      [
+       311,
+       247
+      ],
+      [
+       311,
+       248
+      ],
+      [
+       306,
+       253
+      ],
+      [
+       306,
+       255
+      ],
+      [
+       305,
+       256
+      ],
+      [
+       305,
+       259
+      ],
+      [
+       306,
+       259
+      ],
+      [
+       308,
+       261
+      ],
+      [
+       306,
+       263
+      ],
+      [
+       306,
+       265
+      ],
+      [
+       308,
+       268
+      ],
+      [
+       308,
+       270
+      ],
+      [
+       309,
+       272
+      ],
+      [
+       311,
+       274
+      ],
+      [
+       311,
+       275
+      ],
+      [
+       312,
+       275
+      ],
+      [
+       314,
+       277
+      ],
+      [
+       318,
+       279
+      ],
+      [
+       321,
+       279
+      ],
+      [
+       322,
+       280
+      ],
+      [
+       325,
+       280
+      ],
+      [
+       326,
+       281
+      ],
+      [
+       328,
+       279
+      ],
+      [
+       329,
+       279
+      ],
+      [
+       331,
+       281
+      ],
+      [
+       333,
+       280
+      ],
+      [
+       332,
+       279
+      ],
+      [
+       334,
+       277
+      ],
+      [
+       335,
+       278
+      ],
+      [
+       335,
+       276
+      ],
+      [
+       336,
+       275
+      ],
+      [
+       336,
+       268
+      ],
+      [
+       335,
+       267
+      ],
+      [
+       334,
+       262
+      ],
+      [
+       332,
+       260
+      ],
+      [
+       332,
+       259
+      ],
+      [
+       325,
+       252
+      ],
+      [
+       324,
+       252
+      ],
+      [
+       322,
+       250
+      ]
+     ],
+     [
+      [
+       479,
+       713
+      ],
+      [
+       480,
+       716
+      ],
+      [
+       482,
+       718
+      ],
+      [
+       484,
+       718
+      ],
+      [
+       489,
+       715
+      ],
+      [
+       491,
+       717
+      ],
+      [
+       487,
+       721
+      ],
+      [
+       488,
+       722
+      ],
+      [
+       490,
+       722
+      ],
+      [
+       491,
+       723
+      ],
+      [
+       495,
+       723
+      ],
+      [
+       496,
+       724
+      ],
+      [
+       498,
+       724
+      ],
+      [
+       499,
+       723
+      ],
+      [
+       510,
+       723
+      ],
+      [
+       511,
+       722
+      ],
+      [
+       512,
+       722
+      ],
+      [
+       511,
+       721
+      ],
+      [
+       512,
+       720
+      ],
+      [
+       502,
+       716
+      ],
+      [
+       500,
+       714
+      ],
+      [
+       499,
+       714
+      ],
+      [
+       497,
+       712
+      ],
+      [
+       496,
+       712
+      ],
+      [
+       493,
+       709
+      ],
+      [
+       492,
+       709
+      ],
+      [
+       490,
+       707
+      ],
+      [
+       489,
+       708
+      ],
+      [
+       487,
+       708
+      ],
+      [
+       486,
+       709
+      ],
+      [
+       485,
+       709
+      ],
+      [
+       483,
+       711
+      ],
+      [
+       482,
+       711
+      ],
+      [
+       480,
+       713
+      ]
+     ]
+    ],
+    "57": [
+     [
+      [
+       320,
+       286
+      ],
+      [
+       320,
+       303
+      ],
+      [
+       319,
+       304
+      ],
+      [
+       319,
+       307
+      ],
+      [
+       317,
+       312
+      ],
+      [
+       318,
+       316
+      ],
+      [
+       321,
+       316
+      ],
+      [
+       322,
+       317
+      ],
+      [
+       336,
+       317
+      ],
+      [
+       337,
+       316
+      ],
+      [
+       346,
+       315
+      ],
+      [
+       353,
+       312
+      ],
+      [
+       352,
+       308
+      ],
+      [
+       347,
+       298
+      ],
+      [
+       345,
+       296
+      ],
+      [
+       343,
+       298
+      ],
+      [
+       341,
+       298
+      ],
+      [
+       339,
+       296
+      ],
+      [
+       341,
+       294
+      ],
+      [
+       343,
+       294
+      ],
+      [
+       344,
+       293
+      ],
+      [
+       339,
+       283
+      ],
+      [
+       338,
+       284
+      ],
+      [
+       337,
+       283
+      ],
+      [
+       330,
+       286
+      ],
+      [
+       328,
+       284
+      ],
+      [
+       329,
+       283
+      ],
+      [
+       328,
+       283
+      ],
+      [
+       326,
+       285
+      ],
+      [
+       324,
+       284
+      ],
+      [
+       322,
+       286
+      ]
+     ]
+    ],
+    "59": [
+     [
+      [
+       319,
+       350
+      ],
+      [
+       317,
+       352
+      ],
+      [
+       317,
+       355
+      ],
+      [
+       316,
+       356
+      ],
+      [
+       316,
+       360
+      ],
+      [
+       317,
+       361
+      ],
+      [
+       317,
+       363
+      ],
+      [
+       319,
+       361
+      ],
+      [
+       320,
+       361
+      ],
+      [
+       321,
+       360
+      ],
+      [
+       322,
+       360
+      ],
+      [
+       324,
+       362
+      ],
+      [
+       321,
+       365
+      ],
+      [
+       320,
+       365
+      ],
+      [
+       319,
+       366
+      ],
+      [
+       319,
+       367
+      ],
+      [
+       321,
+       369
+      ],
+      [
+       325,
+       369
+      ],
+      [
+       327,
+       367
+      ],
+      [
+       327,
+       366
+      ],
+      [
+       328,
+       365
+      ],
+      [
+       328,
+       363
+      ],
+      [
+       329,
+       362
+      ],
+      [
+       329,
+       359
+      ],
+      [
+       325,
+       355
+      ],
+      [
+       324,
+       355
+      ],
+      [
+       323,
+       356
+      ],
+      [
+       321,
+       356
+      ],
+      [
+       318,
+       353
+      ],
+      [
+       320,
+       351
+      ],
+      [
+       321,
+       352
+      ],
+      [
+       321,
+       351
+      ],
+      [
+       320,
+       350
+      ]
+     ]
+    ],
+    "54": [
+     [
+      [
+       705,
+       290
+      ],
+      [
+       706,
+       291
+      ],
+      [
+       702,
+       296
+      ],
+      [
+       698,
+       312
+      ],
+      [
+       693,
+       321
+      ],
+      [
+       690,
+       324
+      ],
+      [
+       694,
+       329
+      ],
+      [
+       697,
+       327
+      ],
+      [
+       699,
+       329
+      ],
+      [
+       697,
+       331
+      ],
+      [
+       708,
+       338
+      ],
+      [
+       718,
+       339
+      ],
+      [
+       719,
+       340
+      ],
+      [
+       721,
+       338
+      ],
+      [
+       724,
+       338
+      ],
+      [
+       733,
+       342
+      ],
+      [
+       736,
+       336
+      ],
+      [
+       736,
+       333
+      ],
+      [
+       738,
+       331
+      ],
+      [
+       736,
+       329
+      ],
+      [
+       735,
+       317
+      ],
+      [
+       732,
+       315
+      ],
+      [
+       735,
+       313
+      ],
+      [
+       737,
+       305
+      ],
+      [
+       725,
+       295
+      ],
+      [
+       719,
+       292
+      ],
+      [
+       711,
+       290
+      ]
+     ],
+     [
+      [
+       551,
+       721
+      ],
+      [
+       558,
+       722
+      ],
+      [
+       560,
+       724
+      ],
+      [
+       561,
+       723
+      ],
+      [
+       569,
+       724
+      ],
+      [
+       575,
+       728
+      ],
+      [
+       582,
+       729
+      ],
+      [
+       584,
+       728
+      ],
+      [
+       588,
+       722
+      ],
+      [
+       586,
+       720
+      ],
+      [
+       588,
+       718
+      ],
+      [
+       592,
+       720
+      ],
+      [
+       602,
+       714
+      ],
+      [
+       603,
+       715
+      ],
+      [
+       608,
+       711
+      ],
+      [
+       590,
+       702
+      ],
+      [
+       588,
+       700
+      ],
+      [
+       584,
+       700
+      ],
+      [
+       578,
+       703
+      ],
+      [
+       576,
+       701
+      ],
+      [
+       582,
+       697
+      ],
+      [
+       569,
+       689
+      ],
+      [
+       566,
+       686
+      ],
+      [
+       556,
+       699
+      ],
+      [
+       552,
+       713
+      ]
+     ]
+    ],
+    "49": [
+     [
+      [
+       314,
+       202
+      ],
+      [
+       315,
+       204
+      ],
+      [
+       314,
+       207
+      ],
+      [
+       315,
+       208
+      ],
+      [
+       313,
+       211
+      ],
+      [
+       314,
+       213
+      ],
+      [
+       314,
+       221
+      ],
+      [
+       313,
+       224
+      ],
+      [
+       314,
+       225
+      ],
+      [
+       316,
+       223
+      ],
+      [
+       319,
+       226
+      ],
+      [
+       316,
+       229
+      ],
+      [
+       314,
+       234
+      ],
+      [
+       312,
+       236
+      ],
+      [
+       310,
+       234
+      ],
+      [
+       313,
+       228
+      ],
+      [
+       311,
+       229
+      ],
+      [
+       308,
+       235
+      ],
+      [
+       308,
+       238
+      ],
+      [
+       309,
+       237
+      ],
+      [
+       311,
+       239
+      ],
+      [
+       310,
+       240
+      ],
+      [
+       310,
+       243
+      ],
+      [
+       320,
+       243
+      ],
+      [
+       322,
+       246
+      ],
+      [
+       323,
+       245
+      ],
+      [
+       325,
+       246
+      ],
+      [
+       326,
+       244
+      ],
+      [
+       324,
+       238
+      ],
+      [
+       326,
+       236
+      ],
+      [
+       328,
+       238
+      ],
+      [
+       328,
+       230
+      ],
+      [
+       333,
+       215
+      ],
+      [
+       335,
+       205
+      ],
+      [
+       330,
+       203
+      ],
+      [
+       315,
+       203
+      ]
+     ],
+     [
+      [
+       503,
+       655
+      ],
+      [
+       503,
+       659
+      ],
+      [
+       502,
+       660
+      ],
+      [
+       502,
+       670
+      ],
+      [
+       501,
+       671
+      ],
+      [
+       501,
+       675
+      ],
+      [
+       505,
+       675
+      ],
+      [
+       506,
+       674
+      ],
+      [
+       513,
+       674
+      ],
+      [
+       514,
+       673
+      ],
+      [
+       521,
+       673
+      ],
+      [
+       521,
+       666
+      ],
+      [
+       522,
+       665
+      ],
+      [
+       522,
+       657
+      ],
+      [
+       521,
+       656
+      ],
+      [
+       508,
+       656
+      ],
+      [
+       507,
+       655
+      ]
+     ]
+    ],
+    "51": [
+     [
+      [
+       341,
+       206
+      ],
+      [
+       342,
+       207
+      ],
+      [
+       339,
+       212
+      ],
+      [
+       334,
+       232
+      ],
+      [
+       333,
+       248
+      ],
+      [
+       339,
+       264
+      ],
+      [
+       340,
+       263
+      ],
+      [
+       342,
+       265
+      ],
+      [
+       341,
+       266
+      ],
+      [
+       343,
+       268
+      ],
+      [
+       341,
+       270
+      ],
+      [
+       343,
+       281
+      ],
+      [
+       349,
+       291
+      ],
+      [
+       353,
+       292
+      ],
+      [
+       354,
+       291
+      ],
+      [
+       354,
+       268
+      ],
+      [
+       351,
+       260
+      ],
+      [
+       353,
+       255
+      ],
+      [
+       353,
+       249
+      ],
+      [
+       352,
+       246
+      ],
+      [
+       349,
+       246
+      ],
+      [
+       347,
+       244
+      ],
+      [
+       349,
+       242
+      ],
+      [
+       351,
+       242
+      ],
+      [
+       349,
+       235
+      ],
+      [
+       351,
+       211
+      ],
+      [
+       349,
+       209
+      ]
+     ],
+     [
+      [
+       500,
+       676
+      ],
+      [
+       498,
+       687
+      ],
+      [
+       499,
+       686
+      ],
+      [
+       500,
+       687
+      ],
+      [
+       506,
+       686
+      ],
+      [
+       508,
+       684
+      ],
+      [
+       512,
+       685
+      ],
+      [
+       514,
+       687
+      ],
+      [
+       508,
+       691
+      ],
+      [
+       507,
+       690
+      ],
+      [
+       497,
+       691
+      ],
+      [
+       498,
+       693
+      ],
+      [
+       495,
+       698
+      ],
+      [
+       495,
+       703
+      ],
+      [
+       498,
+       708
+      ],
+      [
+       507,
+       713
+      ],
+      [
+       524,
+       718
+      ],
+      [
+       526,
+       720
+      ],
+      [
+       527,
+       719
+      ],
+      [
+       546,
+       720
+      ],
+      [
+       548,
+       705
+      ],
+      [
+       539,
+       699
+      ],
+      [
+       526,
+       686
+      ],
+      [
+       522,
+       687
+      ],
+      [
+       520,
+       685
+      ],
+      [
+       522,
+       683
+      ],
+      [
+       524,
+       683
+      ],
+      [
+       521,
+       674
+      ]
+     ]
+    ],
+    "52": [
+     [
+      [
+       723,
+       241
+      ],
+      [
+       723,
+       245
+      ],
+      [
+       724,
+       246
+      ],
+      [
+       723,
+       247
+      ],
+      [
+       723,
+       255
+      ],
+      [
+       742,
+       268
+      ],
+      [
+       741,
+       261
+      ],
+      [
+       743,
+       259
+      ],
+      [
+       748,
+       267
+      ],
+      [
+       748,
+       270
+      ],
+      [
+       747,
+       271
+      ],
+      [
+       755,
+       276
+      ],
+      [
+       753,
+       270
+      ],
+      [
+       751,
+       272
+      ],
+      [
+       749,
+       270
+      ],
+      [
+       749,
+       268
+      ],
+      [
+       752,
+       263
+      ],
+      [
+       752,
+       260
+      ],
+      [
+       750,
+       260
+      ],
+      [
+       748,
+       258
+      ],
+      [
+       750,
+       256
+      ],
+      [
+       752,
+       256
+      ],
+      [
+       752,
+       251
+      ],
+      [
+       749,
+       243
+      ],
+      [
+       750,
+       242
+      ],
+      [
+       747,
+       242
+      ],
+      [
+       746,
+       243
+      ],
+      [
+       746,
+       255
+      ],
+      [
+       744,
+       257
+      ],
+      [
+       742,
+       255
+      ],
+      [
+       742,
+       252
+      ],
+      [
+       740,
+       250
+      ],
+      [
+       741,
+       249
+      ],
+      [
+       741,
+       244
+      ],
+      [
+       739,
+       241
+      ],
+      [
+       732,
+       239
+      ],
+      [
+       726,
+       239
+      ]
+     ]
+    ],
+    "53": [
+     [
+      [
+       723,
+       256
+      ],
+      [
+       723,
+       259
+      ],
+      [
+       724,
+       260
+      ],
+      [
+       723,
+       262
+      ],
+      [
+       724,
+       261
+      ],
+      [
+       726,
+       264
+      ],
+      [
+       723,
+       267
+      ],
+      [
+       722,
+       266
+      ],
+      [
+       724,
+       270
+      ],
+      [
+       721,
+       272
+      ],
+      [
+       720,
+       274
+      ],
+      [
+       721,
+       275
+      ],
+      [
+       719,
+       277
+      ],
+      [
+       718,
+       281
+      ],
+      [
+       716,
+       283
+      ],
+      [
+       715,
+       286
+      ],
+      [
+       721,
+       289
+      ],
+      [
+       723,
+       289
+      ],
+      [
+       725,
+       291
+      ],
+      [
+       728,
+       292
+      ],
+      [
+       734,
+       298
+      ],
+      [
+       737,
+       296
+      ],
+      [
+       737,
+       293
+      ],
+      [
+       739,
+       289
+      ],
+      [
+       739,
+       286
+      ],
+      [
+       740,
+       285
+      ],
+      [
+       740,
+       282
+      ],
+      [
+       741,
+       280
+      ],
+      [
+       740,
+       281
+      ],
+      [
+       739,
+       280
+      ],
+      [
+       734,
+       280
+      ],
+      [
+       732,
+       278
+      ],
+      [
+       734,
+       276
+      ],
+      [
+       741,
+       276
+      ],
+      [
+       743,
+       277
+      ],
+      [
+       740,
+       274
+      ],
+      [
+       742,
+       272
+      ],
+      [
+       742,
+       269
+      ]
+     ],
+     [
+      [
+       529,
+       656
+      ],
+      [
+       528,
+       657
+      ],
+      [
+       528,
+       669
+      ],
+      [
+       527,
+       670
+      ],
+      [
+       528,
+       671
+      ],
+      [
+       528,
+       679
+      ],
+      [
+       529,
+       681
+      ],
+      [
+       533,
+       685
+      ],
+      [
+       533,
+       686
+      ],
+      [
+       542,
+       694
+      ],
+      [
+       546,
+       696
+      ],
+      [
+       549,
+       699
+      ],
+      [
+       550,
+       698
+      ],
+      [
+       551,
+       699
+      ],
+      [
+       554,
+       691
+      ],
+      [
+       557,
+       688
+      ],
+      [
+       560,
+       683
+      ],
+      [
+       547,
+       671
+      ],
+      [
+       541,
+       674
+      ],
+      [
+       539,
+       672
+      ],
+      [
+       544,
+       668
+      ],
+      [
+       544,
+       665
+      ],
+      [
+       542,
+       661
+      ],
+      [
+       542,
+       656
+      ],
+      [
+       541,
+       654
+      ]
+     ]
+    ],
+    "55": [
+     [
+      [
+       729,
+       345
+      ],
+      [
+       728,
+       345
+      ],
+      [
+       727,
+       344
+      ],
+      [
+       724,
+       344
+      ],
+      [
+       723,
+       343
+      ],
+      [
+       722,
+       344
+      ],
+      [
+       721,
+       344
+      ],
+      [
+       721,
+       345
+      ],
+      [
+       720,
+       346
+      ],
+      [
+       720,
+       347
+      ],
+      [
+       718,
+       349
+      ],
+      [
+       718,
+       350
+      ],
+      [
+       716,
+       352
+      ],
+      [
+       716,
+       353
+      ],
+      [
+       717,
+       354
+      ],
+      [
+       712,
+       359
+      ],
+      [
+       712,
+       362
+      ],
+      [
+       714,
+       364
+      ],
+      [
+       716,
+       364
+      ],
+      [
+       717,
+       365
+      ],
+      [
+       718,
+       365
+      ],
+      [
+       719,
+       364
+      ],
+      [
+       721,
+       364
+      ],
+      [
+       721,
+       363
+      ],
+      [
+       723,
+       361
+      ],
+      [
+       724,
+       361
+      ],
+      [
+       727,
+       358
+      ],
+      [
+       727,
+       356
+      ],
+      [
+       728,
+       355
+      ],
+      [
+       728,
+       353
+      ],
+      [
+       725,
+       353
+      ],
+      [
+       723,
+       351
+      ],
+      [
+       725,
+       349
+      ],
+      [
+       728,
+       349
+      ],
+      [
+       729,
+       350
+      ],
+      [
+       731,
+       347
+      ]
+     ],
+     [
+      [
+       618,
+       713
+      ],
+      [
+       619,
+       714
+      ],
+      [
+       620,
+       714
+      ],
+      [
+       625,
+       719
+      ],
+      [
+       626,
+       719
+      ],
+      [
+       630,
+       723
+      ],
+      [
+       633,
+       723
+      ],
+      [
+       634,
+       722
+      ],
+      [
+       632,
+       720
+      ],
+      [
+       634,
+       718
+      ],
+      [
+       635,
+       718
+      ],
+      [
+       630,
+       718
+      ],
+      [
+       631,
+       719
+      ],
+      [
+       629,
+       721
+      ],
+      [
+       626,
+       718
+      ],
+      [
+       626,
+       716
+      ],
+      [
+       627,
+       715
+      ],
+      [
+       625,
+       715
+      ],
+      [
+       624,
+       714
+      ],
+      [
+       620,
+       714
+      ],
+      [
+       619,
+       713
+      ]
+     ]
+    ],
+    "56": [
+     [
+      [
+       710,
+       345
+      ],
+      [
+       709,
+       345
+      ],
+      [
+       708,
+       344
+      ],
+      [
+       707,
+       344
+      ],
+      [
+       706,
+       343
+      ],
+      [
+       705,
+       343
+      ],
+      [
+       706,
+       344
+      ],
+      [
+       704,
+       346
+      ],
+      [
+       704,
+       347
+      ],
+      [
+       702,
+       349
+      ],
+      [
+       702,
+       350
+      ],
+      [
+       701,
+       351
+      ],
+      [
+       701,
+       352
+      ],
+      [
+       702,
+       353
+      ],
+      [
+       700,
+       355
+      ],
+      [
+       699,
+       354
+      ],
+      [
+       699,
+       355
+      ],
+      [
+       701,
+       357
+      ],
+      [
+       704,
+       357
+      ],
+      [
+       705,
+       356
+      ],
+      [
+       705,
+       355
+      ],
+      [
+       706,
+       354
+      ],
+      [
+       706,
+       353
+      ],
+      [
+       707,
+       352
+      ],
+      [
+       707,
+       350
+      ],
+      [
+       711,
+       346
+      ]
+     ],
+     [
+      [
+       631,
+       724
+      ],
+      [
+       625,
+       720
+      ],
+      [
+       620,
+       715
+      ],
+      [
+       614,
+       712
+      ],
+      [
+       615,
+       715
+      ],
+      [
+       611,
+       719
+      ],
+      [
+       606,
+       720
+      ],
+      [
+       608,
+       722
+      ],
+      [
+       606,
+       724
+      ],
+      [
+       603,
+       722
+      ],
+      [
+       598,
+       724
+      ],
+      [
+       595,
+       724
+      ],
+      [
+       595,
+       725
+      ],
+      [
+       589,
+       730
+      ],
+      [
+       598,
+       734
+      ],
+      [
+       604,
+       734
+      ],
+      [
+       602,
+       732
+      ],
+      [
+       603,
+       731
+      ],
+      [
+       602,
+       730
+      ],
+      [
+       604,
+       728
+      ],
+      [
+       608,
+       733
+      ],
+      [
+       611,
+       733
+      ],
+      [
+       610,
+       733
+      ],
+      [
+       605,
+       727
+      ],
+      [
+       607,
+       725
+      ],
+      [
+       612,
+       727
+      ],
+      [
+       613,
+       726
+      ],
+      [
+       611,
+       724
+      ],
+      [
+       613,
+       722
+      ],
+      [
+       617,
+       725
+      ],
+      [
+       620,
+       725
+      ],
+      [
+       622,
+       728
+      ],
+      [
+       624,
+       729
+      ],
+      [
+       627,
+       729
+      ],
+      [
+       625,
+       726
+      ],
+      [
+       626,
+       725
+      ],
+      [
+       625,
+       724
+      ],
+      [
+       624,
+       725
+      ],
+      [
+       622,
+       723
+      ],
+      [
+       624,
+       720
+      ]
+     ]
+    ],
+    "58": [
+     [
+      [
+       315,
+       322
+      ],
+      [
+       315,
+       323
+      ],
+      [
+       314,
+       324
+      ],
+      [
+       314,
+       326
+      ],
+      [
+       313,
+       327
+      ],
+      [
+       314,
+       327
+      ],
+      [
+       316,
+       329
+      ],
+      [
+       314,
+       331
+      ],
+      [
+       313,
+       331
+      ],
+      [
+       313,
+       336
+      ],
+      [
+       315,
+       339
+      ],
+      [
+       316,
+       339
+      ],
+      [
+       317,
+       340
+      ],
+      [
+       319,
+       340
+      ],
+      [
+       320,
+       341
+      ],
+      [
+       322,
+       341
+      ],
+      [
+       325,
+       344
+      ],
+      [
+       326,
+       344
+      ],
+      [
+       330,
+       347
+      ],
+      [
+       331,
+       346
+      ],
+      [
+       336,
+       344
+      ],
+      [
+       338,
+       342
+      ],
+      [
+       339,
+       342
+      ],
+      [
+       342,
+       340
+      ],
+      [
+       342,
+       321
+      ],
+      [
+       341,
+       321
+      ],
+      [
+       340,
+       322
+      ],
+      [
+       321,
+       322
+      ],
+      [
+       320,
+       321
+      ],
+      [
+       316,
+       321
+      ]
+     ]
+    ],
+    "60": [
+     [
+      [
+       355,
+       317
+      ],
+      [
+       354,
+       317
+      ],
+      [
+       353,
+       318
+      ],
+      [
+       351,
+       318
+      ],
+      [
+       350,
+       319
+      ],
+      [
+       349,
+       319
+      ],
+      [
+       348,
+       320
+      ],
+      [
+       345,
+       320
+      ],
+      [
+       344,
+       321
+      ],
+      [
+       343,
+       321
+      ],
+      [
+       343,
+       340
+      ],
+      [
+       344,
+       339
+      ],
+      [
+       345,
+       339
+      ],
+      [
+       347,
+       337
+      ],
+      [
+       348,
+       337
+      ],
+      [
+       349,
+       336
+      ],
+      [
+       350,
+       336
+      ],
+      [
+       352,
+       334
+      ],
+      [
+       353,
+       334
+      ],
+      [
+       356,
+       331
+      ],
+      [
+       356,
+       330
+      ],
+      [
+       358,
+       328
+      ],
+      [
+       358,
+       323
+      ],
+      [
+       357,
+       322
+      ],
+      [
+       357,
+       320
+      ],
+      [
+       356,
+       319
+      ],
+      [
+       356,
+       318
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}
