@@ -641,11 +641,6 @@
    "cat": 2,
    "muscles": [
     {
-     "en": "Serratus Posterior Superior",
-     "kr": "상후거근",
-     "img": "images/s15_serratus_posterior_superior.webp"
-    },
-    {
      "en": "Coracobrachialis",
      "kr": "오구완근",
      "img": "images/s15_coracobrachialis.webp"
