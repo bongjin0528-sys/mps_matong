@@ -1,4 +1,6 @@
 let DATA = null;
+let muscleIndex = {};
+let muscleNames = [];
 
 const nav = document.getElementById('nav');
 const contentEl = document.getElementById('content');
@@ -6,8 +8,10 @@ const placeholderEl = document.getElementById('placeholder');
 const searchEl = document.getElementById('search');
 const lightbox = document.getElementById('lightbox');
 const lightboxImg = document.getElementById('lightbox-img');
+const refModal = document.getElementById('ref-modal');
 
 lightbox.addEventListener('click', () => lightbox.classList.remove('show'));
+refModal.addEventListener('click', (e) => { if (e.target === refModal) closeRefModal(); });
 
 const catMap = {};
 const catBlocks = {};
@@ -46,7 +50,7 @@ function selectSection(num) {
   html += '<div class="muscle-grid">';
   s.muscles.forEach((m, i) => {
     html += '<div class="muscle-card">';
-    html += '<div class="muscle-name"><div><span class="muscle-idx">' + (i+1) + '.</span><span class="muscle-kr">' + m.kr + '</span></div><div class="muscle-en">' + m.en + '</div></div>';
+    html += '<div class="muscle-name"><div><span class="muscle-idx">' + (i+1) + '.</span><span class="muscle-kr">' + m.kr + '</span>' + (muscleIndex[m.kr] && muscleIndex[m.kr].sections.length > 1 ? '<span class="ref-link" data-kr="' + m.kr + '">(참고)</span>' : '') + '</div><div class="muscle-en">' + m.en + '</div></div>';
     if (m.img) {
       html += '<div class="slot"><img src="' + m.img + '" alt="' + m.kr + '" loading="lazy" onclick="openLightbox(this.src)"></div>';
     } else {
@@ -60,6 +64,55 @@ function selectSection(num) {
   contentEl.classList.add('show');
   placeholderEl.style.display = 'none';
   document.getElementById('main').scrollTop = 0;
+  contentEl.querySelectorAll('.ref-link').forEach(el => {
+    el.addEventListener('click', () => showMuscleRefModal(el.dataset.kr));
+  });
+}
+
+function showMuscleRefModal(kr) {
+  const info = muscleIndex[kr];
+  if (!info) return;
+  document.getElementById('ref-modal-title').innerHTML = info.kr + '<span class="en">' + info.en + '</span>';
+  document.getElementById('ref-modal-hint').textContent = '이 근육이 나타나는 통증 구역 (' + info.sections.length + '곳)';
+  let html = '';
+  info.sections.forEach(s => {
+    html += '<button class="ref-modal-item" data-num="' + s.num + '">' + s.num + '. ' + s.en + '<span class="kr">' + s.kr + '</span></button>';
+  });
+  document.getElementById('ref-modal-list').innerHTML = html;
+  document.querySelectorAll('#ref-modal-list .ref-modal-item').forEach(el => {
+    el.addEventListener('click', () => { closeRefModal(); selectSection(el.dataset.num); });
+  });
+  refModal.classList.add('show');
+}
+function closeRefModal() {
+  refModal.classList.remove('show');
+}
+
+function showMuscleIndexDetail(kr) {
+  const info = muscleIndex[kr];
+  if (!info) return;
+  secButtons.forEach(b => b.classList.remove('active'));
+  if (window.matchMedia('(max-width: 760px)').matches) closeSidebar();
+
+  let html = '';
+  html += '<div class="crumb">근육 색인</div>';
+  html += '<h2 class="title">' + info.kr + '<span class="kr">' + info.en + '</span></h2>';
+  html += '<div class="map-hint">이 근육이 나타나는 통증 구역 (' + info.sections.length + '곳) &mdash; 클릭하면 이동합니다</div>';
+  html += '<div class="muscle-grid">';
+  info.sections.forEach(s => {
+    html += '<div class="muscle-card idx-ref-card" style="cursor:pointer" data-num="' + s.num + '">';
+    html += '<div class="muscle-name"><div><span class="muscle-idx">' + s.num + '.</span><span class="muscle-kr">' + s.en + '</span></div><div class="muscle-en">' + s.kr + '</div></div>';
+    html += '</div>';
+  });
+  html += '</div>';
+
+  contentEl.innerHTML = html;
+  contentEl.classList.add('show');
+  placeholderEl.style.display = 'none';
+  document.getElementById('main').scrollTop = 0;
+  contentEl.querySelectorAll('.idx-ref-card').forEach(el => {
+    el.addEventListener('click', () => selectSection(el.dataset.num));
+  });
 }
 
 function showMap(catNum) {
@@ -121,6 +174,15 @@ function init(data) {
 
   DATA.categories.forEach(c => catMap[c.num] = c);
 
+  // build reverse index: muscle kr name -> which sections it appears in
+  DATA.sections.forEach(s => {
+    s.muscles.forEach(m => {
+      if (!muscleIndex[m.kr]) muscleIndex[m.kr] = { kr: m.kr, en: m.en, sections: [] };
+      muscleIndex[m.kr].sections.push({ num: s.num, kr: s.kr, en: s.en });
+    });
+  });
+  muscleNames = Object.keys(muscleIndex).sort((a, b) => a.localeCompare(b, 'ko'));
+
   DATA.categories.forEach(c => {
     const count = DATA.sections.filter(s => s.cat === c.num).length;
 
@@ -166,6 +228,48 @@ function init(data) {
     btn.addEventListener('click', () => selectSection(s.num));
     catBlocks[s.cat].list.appendChild(btn);
     secButtons.push(btn);
+  });
+
+  // ===== muscle index block (bottom of sidebar, alphabetical) =====
+  const idxBlock = document.createElement('div');
+  idxBlock.className = 'cat-block idx-block';
+
+  const idxHeader = document.createElement('button');
+  idxHeader.className = 'cat-header';
+  idxHeader.innerHTML = '<span>🔤 근육 색인 (가나다순)<span class="cat-count">(' + muscleNames.length + ')</span></span><span class="chev">&#9656;</span>';
+  idxHeader.addEventListener('click', () => idxBlock.classList.toggle('open'));
+  idxBlock.appendChild(idxHeader);
+
+  const idxListWrap = document.createElement('div');
+  idxListWrap.className = 'sec-list';
+
+  const idxSearch = document.createElement('input');
+  idxSearch.className = 'idx-search';
+  idxSearch.type = 'text';
+  idxSearch.placeholder = '근육 이름 검색';
+  idxListWrap.appendChild(idxSearch);
+
+  const idxList = document.createElement('div');
+  idxList.className = 'idx-list';
+  const idxItems = [];
+  muscleNames.forEach(kr => {
+    const info = muscleIndex[kr];
+    const btn = document.createElement('button');
+    btn.className = 'idx-item';
+    btn.dataset.search = (kr + ' ' + info.en).toLowerCase();
+    btn.innerHTML = kr + '<span class="en">' + info.en + '</span>';
+    btn.addEventListener('click', () => showMuscleIndexDetail(kr));
+    idxList.appendChild(btn);
+    idxItems.push(btn);
+  });
+  idxListWrap.appendChild(idxList);
+  idxBlock.appendChild(idxListWrap);
+  nav.appendChild(idxBlock);
+
+  idxSearch.addEventListener('click', (e) => e.stopPropagation());
+  idxSearch.addEventListener('input', () => {
+    const q = idxSearch.value.trim().toLowerCase();
+    idxItems.forEach(b => b.classList.toggle('hidden', !!q && !b.dataset.search.includes(q)));
   });
 }
 
