@@ -26,6 +26,10 @@
     </div>
   </header>
   <input id="search" type="text" placeholder="부위 검색 (예: 두통, elbow, 무릎)">
+  <button id="diag-btn" class="diag-btn" onclick="showDiagnosis()">
+    <span class="icon">🩺</span>
+    <span class="txt"><span class="main">MPS 변증</span><span class="sub">통증 부위로 의심 근육 찾기</span></span>
+  </button>
   <nav id="nav"></nav>
 </div>
 
@@ -43,6 +47,9 @@
     <div class="ref-modal-header">
       <span class="name" id="ref-modal-title"></span>
       <button class="close-btn" onclick="closeRefModal()">&times;</button>
+    </div>
+    <div class="ref-modal-img-wrap" id="ref-modal-img-wrap" style="display:none">
+      <img id="ref-modal-img" src="" alt="">
     </div>
     <div class="ref-modal-hint" id="ref-modal-hint"></div>
     <div class="ref-modal-list" id="ref-modal-list"></div>

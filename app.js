@@ -69,10 +69,31 @@ function selectSection(num) {
   });
 }
 
+function findMuscleImage(kr) {
+  for (const s of DATA.sections) {
+    for (const m of s.muscles) {
+      if (m.kr === kr && m.img) return m.img;
+    }
+  }
+  return null;
+}
+
 function showMuscleRefModal(kr) {
   const info = muscleIndex[kr];
   if (!info) return;
   document.getElementById('ref-modal-title').innerHTML = info.kr + '<span class="en">' + info.en + '</span>';
+
+  const img = findMuscleImage(kr);
+  const imgWrap = document.getElementById('ref-modal-img-wrap');
+  const imgEl = document.getElementById('ref-modal-img');
+  if (img) {
+    imgEl.src = img;
+    imgEl.onclick = () => openLightbox(img);
+    imgWrap.style.display = '';
+  } else {
+    imgWrap.style.display = 'none';
+  }
+
   document.getElementById('ref-modal-hint').textContent = '이 근육이 나타나는 통증 구역 (' + info.sections.length + '곳)';
   let html = '';
   info.sections.forEach(s => {
@@ -112,6 +133,108 @@ function showMuscleIndexDetail(kr) {
   document.getElementById('main').scrollTop = 0;
   contentEl.querySelectorAll('.idx-ref-card').forEach(el => {
     el.addEventListener('click', () => selectSection(el.dataset.num));
+  });
+}
+
+// ===== MPS 변증 (pain-region checklist -> ranked muscle suspects) =====
+const diagSelected = new Set();
+
+function showDiagnosis() {
+  secButtons.forEach(b => b.classList.remove('active'));
+  if (window.matchMedia('(max-width: 760px)').matches) closeSidebar();
+
+  let html = '';
+  html += '<div class="diag-header"><h2 class="title">🩺 MPS 변증</h2></div>';
+  html += '<div class="diag-desc">환자가 아프다고 하는 부위를 모두 선택하세요 (여러 군데 선택 가능). 선택한 부위들에 공통으로 관련된 근육을 확률 순으로 보여드립니다.</div>';
+  html += '<div class="diag-toolbar"><div class="diag-count">선택된 부위: <span id="diag-count-num">' + diagSelected.size + '</span>개</div>';
+  html += '<div class="diag-actions"><button class="diag-btn-ghost" onclick="resetDiagnosis()">초기화</button><button class="diag-btn-primary" id="diag-submit" onclick="runDiagnosis()"' + (diagSelected.size === 0 ? ' disabled' : '') + '>진단 결과 보기</button></div></div>';
+
+  DATA.categories.forEach(c => {
+    const secs = DATA.sections.filter(s => s.cat === c.num);
+    html += '<div class="diag-cat-group"><div class="diag-cat-title">' + c.num + '. ' + c.kr + '</div><div class="diag-grid">';
+    secs.forEach(s => {
+      const checked = diagSelected.has(s.num);
+      html += '<label class="diag-check-row' + (checked ? ' checked' : '') + '" data-num="' + s.num + '">';
+      html += '<input type="checkbox" data-num="' + s.num + '"' + (checked ? ' checked' : '') + '>';
+      html += '<span class="label"><span class="en">' + s.en + '</span><span class="kr">' + s.kr + '</span></span>';
+      html += '</label>';
+    });
+    html += '</div></div>';
+  });
+
+  contentEl.innerHTML = html;
+  contentEl.classList.add('show');
+  placeholderEl.style.display = 'none';
+  document.getElementById('main').scrollTop = 0;
+
+  contentEl.querySelectorAll('.diag-check-row input').forEach(cb => {
+    cb.addEventListener('change', () => {
+      const num = cb.dataset.num;
+      if (cb.checked) diagSelected.add(num); else diagSelected.delete(num);
+      cb.closest('.diag-check-row').classList.toggle('checked', cb.checked);
+      document.getElementById('diag-count-num').textContent = diagSelected.size;
+      document.getElementById('diag-submit').disabled = diagSelected.size === 0;
+    });
+  });
+}
+
+function resetDiagnosis() {
+  diagSelected.clear();
+  showDiagnosis();
+}
+
+function runDiagnosis() {
+  if (diagSelected.size === 0) return;
+  const total = diagSelected.size;
+  const scores = {};
+  diagSelected.forEach(num => {
+    const s = DATA.sections.find(x => x.num === num);
+    if (!s) return;
+    s.muscles.forEach(m => {
+      if (!scores[m.kr]) scores[m.kr] = { kr: m.kr, en: m.en, count: 0, sections: [] };
+      scores[m.kr].count++;
+      scores[m.kr].sections.push({ num: s.num, en: s.en, kr: s.kr });
+    });
+  });
+  const ranked = Object.values(scores).sort((a, b) => b.count - a.count || a.kr.localeCompare(b.kr, 'ko'));
+
+  const byCount = {};
+  ranked.forEach(r => { (byCount[r.count] = byCount[r.count] || []).push(r); });
+  const counts = Object.keys(byCount).map(Number).sort((a, b) => b - a);
+  const medals = ['🥇', '🥈', '🥉'];
+
+  let html = '';
+  html += '<div class="diag-header"><h2 class="title">🩺 MPS 변증 &mdash; 결과</h2></div>';
+  html += '<div class="diag-results-hint">선택한 통증 부위 ' + total + '곳 기준, 관련도 순으로 정렬했습니다.</div>';
+  html += '<div class="diag-toolbar"><div class="diag-count">선택된 부위: <span>' + total + '</span>개</div>';
+  html += '<div class="diag-actions"><button class="diag-btn-ghost" onclick="showDiagnosis()">부위 다시 선택</button><button class="diag-btn-ghost" onclick="resetDiagnosis()">초기화</button></div></div>';
+
+  if (ranked.length === 0) {
+    html += '<div class="diag-empty">일치하는 근육을 찾지 못했습니다.</div>';
+  } else {
+    counts.forEach((cnt, i) => {
+      const pct = Math.round((cnt / total) * 100);
+      const medal = medals[i] || '▪️';
+      const tierLabel = cnt === total ? '전체 부위 일치' : cnt + ' / ' + total + '곳 일치';
+      html += '<div class="diag-tier"><div class="diag-tier-title"><span class="medal">' + medal + '</span>' + tierLabel + '<span class="pct">' + pct + '%</span></div>';
+      html += '<div class="diag-muscle-grid">';
+      byCount[cnt].forEach(r => {
+        html += '<div class="diag-muscle-card" data-kr="' + r.kr + '">';
+        html += '<div class="kr">' + r.kr + '</div><div class="en">' + r.en + '</div>';
+        html += '<div class="match">' + r.sections.map(s => s.en).join(', ') + '</div>';
+        html += '</div>';
+      });
+      html += '</div></div>';
+    });
+  }
+
+  contentEl.innerHTML = html;
+  contentEl.classList.add('show');
+  placeholderEl.style.display = 'none';
+  document.getElementById('main').scrollTop = 0;
+
+  contentEl.querySelectorAll('.diag-muscle-card').forEach(el => {
+    el.addEventListener('click', () => showMuscleRefModal(el.dataset.kr));
   });
 }
 
